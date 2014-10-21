@@ -1,7 +1,5 @@
 # Codenamu
 
-[TOC]
-
 ### 코드나무는 무엇인가요?
 열린 정부 실현을 위해 자발적으로 모인 시민들의 오픈 커뮤니티입니다.
 ### codenamu.github.io 프로젝트는 무엇인가요?
@@ -21,4 +19,11 @@
 #### Javascript
 
 프로젝트의 많은 부분은 javascript로 개발되었습니다. javascript에 대한 학습은 [Opentutorials](Opentutorials.org) 등을 이용해주세요.
+
+#### 관련웹사이트
+[Codenamu](http://codenamu.org)
+[Code for Seoul Project](http://codenamu.org/projects/code-for-seoul/)
+[Code for Seoul Github](https://github.com/codeforseoul)
+[열려라 공공데이터 페이스북 그룹](https://www.facebook.com/groups/OpenGov20/)
+[코드나무 페이스북 그룹](https://www.facebook.com/groups/codenamu/)
 
