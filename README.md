@@ -21,9 +21,9 @@
 프로젝트의 많은 부분은 javascript로 개발되었습니다. javascript에 대한 학습은 [Opentutorials](Opentutorials.org) 등을 이용해주세요.
 
 #### 관련웹사이트
-[Codenamu](http://codenamu.org)
-[Code for Seoul Project](http://codenamu.org/projects/code-for-seoul/)
-[Code for Seoul Github](https://github.com/codeforseoul)
-[열려라 공공데이터 페이스북 그룹](https://www.facebook.com/groups/OpenGov20/)
-[코드나무 페이스북 그룹](https://www.facebook.com/groups/codenamu/)
+* [Codenamu](http://codenamu.org)
+* [Code for Seoul Project](http://codenamu.org/projects/code-for-seoul/)
+* [Code for Seoul Github](https://github.com/codeforseoul)
+* [열려라 공공데이터 페이스북 그룹](https://www.facebook.com/groups/OpenGov20/)
+* [코드나무 페이스북 그룹](https://www.facebook.com/groups/codenamu/)
 
