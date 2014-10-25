@@ -2,6 +2,11 @@
 
 
 /* customize for bootstrap  */
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
 .navbar {
 	margin-bottom: 0px;
 }
@@ -30,7 +35,7 @@
 	clear:none;
 }
 
-.work:nth-of-type(3n+2) {
+.work:nth-of-type(4n+2) {
 	margin-left: 0;
 	clear: both;
 }
@@ -66,7 +71,23 @@
 	margin:0 auto;
 }
 
+/* Resources */
+.organisations li:nth-of-type(4n+1) {
+	margin-left: 0;
+	clear: both;
+}
 
+.organisations .logo {
+	min-height: 200px;
+}
+
+
+.data_visualization {
+	background-color: #5BC0DE;
+}
+.map_visualization {
+	background-color: #9dc84c;
+}
 
 /* footer */
 footer {

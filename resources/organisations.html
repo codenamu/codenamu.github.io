@@ -1,0 +1,48 @@
+---
+layout: page
+banner: resources_orgs.jpg
+title: 참고자료 - 단체/기관
+---
+<div class="row organisations">
+	<div class="page-header">
+		<h2>Code for All</h2>
+	</div>
+	<ul>
+		{% for org in site.data.codeforall %}
+		<li class="col-sm-6 col-md-3">
+			<a title="{{org.name}}" href="{{org.url}}" target="_blank">
+				<div class="thumbnail">
+					<img src="/img/codeforall/{{org.logo}}" alt="{{org.name}}">
+					<div class="caption">
+						<h3>{{org.name}}</h3>
+						<p>{{org.description}}</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+<div class="row organisations">
+	<div class="page-header">
+		<h2>그 외 단체</h2>
+	</div>
+	<ul>
+		{% for org in site.data.resources.orgs %}
+		<li class="col-sm-6 col-md-3">
+			<a title="{{org.name}}" href="{{org.url}}"  target="_blank">
+				<div class="thumbnail">
+					<img src="/img/orgs/{{org.logo}}" alt="{{org.name}}">
+					<div class="caption">
+						<h3>{{org.name}}</h3>
+						<p>{{org.description}}</p>
+					</div>
+				</div>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+<div class="row">
+	<small><a href="https://www.flickr.com/photos/wowcckorea/14791928521">Banner Image</a> - CC BY from CCKOREA</small>
+</div>

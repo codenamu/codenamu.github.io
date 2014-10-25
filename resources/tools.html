@@ -1,0 +1,31 @@
+---
+layout: page
+banner: resources_orgs.jpg
+title: 참고자료 - 서비스/도구
+---
+
+{% for tools in site.data.resources.tools %}
+	<div class="row">
+		<div class="page-header">
+			<h2>{{tools.category}}</h2>
+		</div>
+		<ul>
+			{% for tool in tools.list %}
+				<li class="tool col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<div class="caption">
+							<h2><a title="{{tool.name}}" href="{{tool.url}}">{{tool.name}}</a></h2>
+							<p>{{tool.description}}</p>
+						</div>
+						<span class="label {{ tool.label-slug }}">{{tool.label}}</span>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+{% endfor %}
+
+
+<div class="row">
+	<small><a href="https://www.flickr.com/photos/wowcckorea/14791928521">Banner Image</a> - CC BY from CCKOREA</small>
+</div>
