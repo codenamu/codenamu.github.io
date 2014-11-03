@@ -1,23 +1,71 @@
-- name: Open Knowledge Foundation
-  logo: okfn_logo.jpeg
-  url: http://codenamu.org
+- category: "in Korea"
+  list:
+  - name: "Team Popong"
+    img: "popong_logo.png"
+  - name: "PEACE CODE"
 
-- name: Sunlight Foundation
-  logo: sunlight_logo.png
-  url: http://sunlightfoundation.com/
+- category: "Code for All"
+  list:
+    - name: "Code for Africa"
+      img: "codeforafrica_logo.png"
+      url: "http://www.codeforafrica.org/"
+    - name: "Code for America"
+      img: "codeforamerica_logo.jpg"
+      url: "http://codeforamerica.org/"
+    - name: "Code for Australia"
+      img: "codeforaustrailia_logo.png"
+      url: "http://www.codeforaustralia.org/"
+    - name: "Code for Germany"
+      img: "codeforde_logo.svg"
+      url: "http://codefor.de/"
+    - name: "Code for Ghana"
+      img: "codeforghana_logo.png"
+      url: "http://codeforghana.org/"
+    - name: "Code for Ireland"
+      img: ""
+      url: "http://codeforireland.com/"
+    - name: "Code for Japan"
+      img: ""
+      url: "http://code4japan.org"
+    - name: "Code for Kenya"
+      img: "codeforkenya_logo.png"
+      url: "http://code4kenya.org/"
+    - name: "Code for Nigeria"
+      img: "codefornigeria_logo.png"
+      url: "http://code4nigeria.org/"
+    - name: "Code for Pakistan"
+      img: "codeforpakistan_logo.png"
+      url: "http://www.codeforpakistan.org/code-for-all-brigades.html"
+    - name: "Code for Poland"
+      img: "codeforpoland_logo.svg"
+      url: "http://epf.org.pl/kodujdlapolski/"
+    - name: "Code for South Africa"
+      img: "codeforsouthafrica_logo.png"
+      url: "http://www.code4sa.org/"
+    - name: "Code for the Caribbean"
+      img: "codeforcaribbean_logo.png"
+      url: "http://www.codeforthecaribbean.org/"
+    - name: "Code for Tomorrow"
+      img: "codefortomorrow_logo.png"
+      url: "http://codefortomorrow.org/"
+    - name: "Codeando México"
+      img: "codeandomexico_logo.png"
+      url: "http://codeandomexico.org/"
+    - name: "Codigo para la Ciudad de Mexico"
+      img: "codigoparalaciudaddemexico_logo.png"
+      url: "http://codigo.labplc.mx/"
+    - name: "g0v.tw"
+      img: "g0vtw_logo.png"
+      url: "http://g0v.tw/"
+    - name: "Hacking Monterrey"
+      img: ""
+      url: "http://hackingmty.org/"
 
-- name: Open Knowledge Foundation
-  logo: okfn_logo.jpeg
-  url: http://codenamu.org
-
-- name: Sunlight Foundation
-  logo: sunlight_logo.png
-  url: http://sunlightfoundation.com/
-
-- name: Open Knowledge Foundation
-  logo: okfn_logo.jpeg
-  url: http://codenamu.org
-
-- name: Sunlight Foundation
-  logo: sunlight_logo.png
-  url: http://sunlightfoundation.com/
+- category: "Others"
+  list:
+    - name: "Open Knowledge Foundation"
+      img: "okfn_logo.jpeg"
+      url: "http://codenamu.org"
+    - name: "Sunlight Foundation"
+      img: "sunlight_logo.png"
+      url: "http://sunlightfoundation.com/"

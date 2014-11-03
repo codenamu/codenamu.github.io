@@ -4,7 +4,7 @@ layout: default
 
 {% include header.html %}
 <section class="container">
-	<section id="projects" class="projects row">
+	<section class="projects row">
 		<div class="page-header">
 			<h2>Projects</h2>
 		</div>
@@ -34,7 +34,7 @@ layout: default
 		</div>
 	</section>
 
-	<section class="row">
+	<section class="blog row">
 		<div class="page-header">
 			<h2>Blog <small><a href="#">더 보기</a></small></h2>
 		</div>
@@ -42,19 +42,11 @@ layout: default
 			{% for item in site.categories.blog limit:2 %}
 			<div class="row">
 				<div class="thumbnail col-md-3">
-					<h3>Thumbnail label</h3>
+					<img src="{{ item.splash }}">
 				</div>
 				<div class="col-md-8 col-md-offset-1">
-					<h3><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a>
-					<small class='month'>{{item.date | date: '%B %D'}}</small>
-<!-- 				    {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-				    {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
-
-				    {% if date != ndate %}
-				      <small class='month'>{{item.date | date: '%B %D'}}</small>
-				    {% endif %} -->
-					</h3>
-					<P>{{ item.content }}</P>
+					<h3><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a><small class='month'>{{item.date | date: '%B %D'}}</small></h3>
+					<P>{{ item.content | truncatewords:75 }}</P>
 				</div>
 			</div>
 			{% endfor %}
@@ -65,82 +57,18 @@ layout: default
 		<div class="page-header">
 			<h2>작업물 <small><a href="#">더 보기</a></small></h2>
 		</div>
-<!-- 		<ul>
-			{% for work in site.data.works %}
-				<li class="work col-sm-6 col-md-4">
-					<div class="thumbnail">
-						<img src="{{ work.img }}" alt="{{ work.name }}">
-						<div class="caption">
-						<h3>{{ work.name }}</h3>
-							<p>{{ work.description }}}</p>
-							<p><a href="{{ work.url }}}" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="https://github.com/ufosoft/goodclinic" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i>
-		 </a></p>
-						</div>
+		{% for work in site.data.works %}
+			<div class="work col-sm-6 col-md-3">
+				<div class="thumbnail">
+					<img src="/img/works/{{ work.img }}" alt="{{ work.name }}">
+					<div class="caption">
+						<h4>{{ work.name }}</h4>
+						<p>{{ work.description }}</p>
+						<p><a href="{{ work.url }}" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="{{ work.github }}" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
 					</div>
-				</li>
-			{% endfor %}
-		</ul> -->
-		<div class="work col-sm-6 col-md-3">
-			<div class="thumbnail">
-				<img src="img/works/ansim.jpg" alt="안심이">
-				<div class="caption">
-					<h3>안심이</h3>
-					<p>건강보험 심사평가원의 병원 정보에도 항생제 처방 빈도, 주사제 처방 빈도 등을 크롤링하여 구글맵(또는 우샤히디 플랫폼)에 표시하는 보여주는 서비스입니다.</p>
-					<p><a href="http://ansim.me/" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="https://github.com/ufosoft/goodclinic" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i>
- </a></p>
 				</div>
 			</div>
-		</div>
-		<div class="work col-sm-6 col-md-3">
-			<div class="thumbnail">
-				<img src="img/works/pokr.png" alt="대한민국 정치의 모든 것" width="80%">
-				<div class="caption">
-					<h3>대한민국 정치의 모든 것</h3>
-					<p>지금 당신에게 필요한 생활밀착형 정치 서비스! 지역 및 관심사를 선택하면 당신에게 필요한 정치정보를 선별해서 보여드립니다.</p>
-					<p><a href="http://pokr.kr/" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="https://github.com/teampopong/pokr.kr" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
-				</div>
-			</div>
-		</div>
-		<div class="work col-sm-6 col-md-3">
-			<div class="thumbnail">
-				<img src="img/works/seoulatoz.jpg" alt="Seoul A to Z">
-				<div class="caption">
-					<h3>Seoul A to Z</h3>
-					<p>소소한 우리의 작은 생각들, 귀찮아서 그냥 넘어갔던 고민들.. 어찌보면 우리의 삶에 가장 필요한 정보들인데 누구도 제대로 알려준 적이 없었죠? 서울 시민의 일상을 인포그래픽으로 일목요연하게 보여주어 가려운 곳을 살살 긁어줄 수 있는 서비스입니다.</p>
-					<p><a href="http://seoulaz.codenamu.org/" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
-				</div>
-			</div>
-		</div>
-		<div class="work col-sm-6 col-md-3">
-			<div class="thumbnail">
-				<img src="img/works/assembly_now.png" alt="국회는 지금">
-				<div class="caption">
-					<h3>국회는 지금</h3>
-					<p>국회 의석을 시각적으로 표현해 정당별, 연령별, 지역별, 성별, 당선횟수별로 국회의원 현황을 한눈에 파악할 수 있습니다.<br><i>*본 프로젝트는 18대 국회(2008-2012)를 대상으로 진행된 것으로, 더 이상 유효하지 않습니다.</i></p>
-					<p><a href="http://labs.popong.com/codenamu/" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="https://github.com/teampopong/popong.com-assemblynow" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
-				</div>
-			</div>
-		</div>
-		<div class="work col-sm-6 col-md-3">
-			<div class="thumbnail">
-				<img src="img/works/wheredoesmymoneygo.png" alt="Where Does My Money Go?">
-				<div class="caption">
-					<h3>Where Does My Money Go?</h3>
-					<p>영국에서 시작된 프로젝트로 우리나라 세금 데이터를 활용하여 내가 낸 세금이 어느 분야에 얼만큼 쓰였는지 시각화에서 보여주는 프로젝트입니다.</p>
-					<p><a href="http://wheredoesmymoneygo.kr/" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="https://github.com/codeforseoul/wheredoesmymoneygo.kr" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
-				</div>
-			</div>
-		</div>
-		<div class="work col-sm-6 col-md-3">
-			<div class="thumbnail">
-				<img src="img/works/read_public_data.png" alt="공공데이터 읽어주는 남과 여">
-				<div class="caption">
-					<h3>공공데이터 읽어주는 남과 여</h3>
-					<p>코드나무에서 저널리스트와 디자이너를 지망하는 두 학생이 총 4회에 걸쳐 ‘공공데이터 읽어주는 남과 여’의 연재를 통해 우리에게 친근한 소재의 공공데이터를 발굴해 쉽게 전달하고자 노력한 프로젝트입니다.</p>
-					<p><a href="http://codenamu.org/blog/category/project/read-public-data/" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
-				</div>
-			</div>
-		</div>
+		{% endfor %}
 	</section>
 
 	<section class="publication row">
@@ -149,33 +77,27 @@ layout: default
 		</div>
 		<div class="col-sm-6 col-md-4">
 			<div class="thumbnail">
-				<div class="cover-img">
-					<img src="img/publication/open_government.jpg" alt="열린 정부 만들기">
-				</div>
+				<img src="img/publication/open_government.jpg" alt="열린 정부 만들기">
 				<div class="caption">
-					<h3>[번역] 열린 정부 만들기</h3>
+					<h4>[번역] 열린 정부 만들기</h4>
 					<p><a href="#" class="btn btn-default" role="button"><i class="fa fa-arrow-circle-right fa-fw"></i> 사러 가기</a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a></p>
 				</div>
 			</div>
 		</div>
 		<div class="col-sm-6 col-md-4">
 			<div class="thumbnail">
-				<div class="cover-img">
-					<img src="img/publication/gov2.0.jpg" alt="[공동번역] 참여와 소통의 정부2.0">
-				</div>
+				<img src="img/publication/gov2.0.jpg" alt="[공동번역] 참여와 소통의 정부2.0">
 				<div class="caption">
-					<h3>[공동번역] 참여와 소통의 정부2.0</h3>
+					<h4>[공동번역] 참여와 소통의 정부2.0</h4>
 					<p><a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788996366539" class="btn btn-default" role="button" target="_blank"><i class="fa fa-arrow-circle-right fa-fw"></i> 사러 가기</a> <a href="http://www.scribd.com/doc/63548697/%EC%B0%B8%EC%97%AC%EC%99%80-%EC%86%8C%ED%86%B5%EC%9D%98-%EC%A0%95%EB%B6%802-0-%ED%98%B8%EC%A3%BC-%EC%A0%95%EB%B6%802-0-%ED%83%9C%EC%8A%A4%ED%81%AC%ED%8F%AC%EC%8A%A4-%EB%B3%B4%EA%B3%A0%EC%84%9C%20" class="btn btn-default" role="button" target="_blank"><i class="fa fa-arrow-circle-down fa-lg"></i> PDF 다운로드</a> <a href="/projects/translation/#translation_gov2.0" class="btn btn-default" role="button" target="_blank"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a></p>
 				</div>
 			</div>
 		</div>
 		<div class="col-sm-6 col-md-4">
 			<div class="thumbnail">
-				<div class="cover-img">
-					<img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
-				</div>
+				<img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
 				<div class="caption">
-					<h3>[보고서] 서울시 열린 데이터 광장 – Open API 검증</h3>
+					<h4>[보고서] 서울시 열린 데이터 광장 – Open API 검증</h4>
 					<p><a href="http://www.slideshare.net/codenamu/open-api-35911489" class="btn btn-default" role="button" target="_blank"><i class="fa fa-arrow-circle-down fa-lg"></i> PDF 다운로드</a> <a href="" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a></p>
 				</div>
 			</div>

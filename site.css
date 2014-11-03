@@ -1,6 +1,5 @@
 @import url('assets/bootstrap/dist/css/bootstrap.min.css');
 
-
 /* customize for bootstrap  */
 ul {
 	list-style: none;
@@ -31,8 +30,16 @@ ul {
 	min-height: 220px;
 }
 
+.blog .thumbnail {
+	margin-top: 20px;
+}
+
 .work {
 	clear:none;
+}
+
+.work > .thumbnail > img {
+	padding: 15px;
 }
 
 .work:nth-of-type(4n+2) {
@@ -44,10 +51,9 @@ ul {
 	border:0px;
 }
 
-.publication .cover-img {
-	width: 247px;
-	height: 325px;
-	margin:0 auto;
+.publication .thumbnail > img {
+	width: 200px;
+	height: 250px;
 }
 
 .publication img {
@@ -77,11 +83,11 @@ ul {
 	clear: both;
 }
 
-.organisations .logo {
-	min-height: 200px;
+.organisations .thumbnail > img {
+	min-height: 150px;
 }
 
-
+/* labeling for tools  */
 .data_visualization {
 	background-color: #5BC0DE;
 }
