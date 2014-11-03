@@ -10,8 +10,12 @@ prose:
     _posts:
       - name: "category"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "multiselect"
+          value: "Add Category"
+          placeholder: "Choose Category"
+          options: 
+            - name: "블로그"
+              value: "Blog"
       - name: "layout"
         field:
           element: "hidden"

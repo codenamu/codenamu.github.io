@@ -1,7 +1,11 @@
 @import url('assets/bootstrap/dist/css/bootstrap.min.css');
 
-
 /* customize for bootstrap  */
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
 .navbar {
 	margin-bottom: 0px;
 }
@@ -26,11 +30,19 @@
 	min-height: 220px;
 }
 
+.blog .thumbnail {
+	margin-top: 20px;
+}
+
 .work {
 	clear:none;
 }
 
-.work:nth-of-type(3n+2) {
+.work > .thumbnail > img {
+	padding: 15px;
+}
+
+.work:nth-of-type(4n+2) {
 	margin-left: 0;
 	clear: both;
 }
@@ -39,10 +51,9 @@
 	border:0px;
 }
 
-.publication .cover-img {
-	width: 247px;
-	height: 325px;
-	margin:0 auto;
+.publication .thumbnail > img {
+	width: 200px;
+	height: 250px;
 }
 
 .publication img {
@@ -66,7 +77,23 @@
 	margin:0 auto;
 }
 
+/* Resources */
+.organisations li:nth-of-type(4n+1) {
+	margin-left: 0;
+	clear: both;
+}
 
+.organisations .thumbnail > img {
+	min-height: 150px;
+}
+
+/* labeling for tools  */
+.data_visualization {
+	background-color: #5BC0DE;
+}
+.map_visualization {
+	background-color: #9dc84c;
+}
 
 /* footer */
 footer {
