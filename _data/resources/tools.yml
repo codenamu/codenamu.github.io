@@ -10,6 +10,12 @@
       label-slug: "data_visualization"
       url: "http://fastly.github.io/epoch"
       description: "D3.js를 활용하여 실시간 그래프를 구현할 수 있는 자바스크립트 라이브러리입니다. Epoch를 활용하여 실시간으로 들어오는 데이터를 동적인 그래프로 쉽게 표현할 수 있습니다."
+
+- category: "Service"
+  list:
+    - name: "Github & Government"
+      url: "https://government.github.com/"
+      description: "각 정부와 시빅 해커들이 Github을 통해 오픈소스로 운영하고 있는 프로젝트들을 모아놓은 곳입니다. 대부분 미국 단체 및 프로젝트이며 우리나라에서는 Code for Seoul과 팀포퐁을 확인하실 수 있습니다."
     - name: "Plotly"
       label: "데이터 시각화"
       label-slug: "data_visualization"
@@ -20,9 +26,3 @@
       label-slug: "map_visualization"
       url: "http://public.opendatasoft.com/map/"
       description: "개발 지식이 없더라도 지오데이터만 가지고 쉽게 지도에 매핑해볼 수 있는 서비스입니다. 지오데이터를 가공하여 업로드 한 뒤 지도에 보이길 원하는 형태로 가다듬으면 웬만한 것보다 멋진 매핑 프로젝트를 완성시킬 수 있습니다."
-
-- category: "Service"
-  list:
-    - name: "Github & Government"
-      url: "https://government.github.com/"
-      description: "각 정부와 시빅 해커들이 Github을 통해 오픈소스로 운영하고 있는 프로젝트들을 모아놓은 곳입니다. 대부분 미국 단체 및 프로젝트이며 우리나라에서는 Code for Seoul과 팀포퐁을 확인하실 수 있습니다."

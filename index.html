@@ -3,120 +3,120 @@ layout: default
 ---
 
 {% include header.html %}
-<section class="container">
-	<section class="projects row">
-		<div class="page-header">
-			<h2>Projects</h2>
-		</div>
-		<div class="project col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<div class="caption">
-					<h2>Code for Seoul</h2>
-					<p>코드포서울은 IT기술을 활용해서 직접 공공에게 도움이 되는 서비스를 만들 수 있는 개발자,디자이너,기획자 그룹으로 이뤄져 있습니다. 코드나무는 전 세계 시빅 해킹 커뮤니티들과 함께 도시의 문제를 해결하기 위하여 전 세계 시민들과 협력하고 있습니다.</p>
-				</div>
-			</div>
-		</div>
-		<div class="project col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<div class="caption">
-					<h2>해커톤</h2>
-					<p>코드나무는 공공기관에는 공공정보를 개방할 수 있도록 가이드와 민간의 의견들을 제공하고 민간에서는 공공데이터를 활용한 다양한 서비스와 어플리케이션을 개발을 할 수 있도록 매 년 해커톤을 열고 있습니다.</p>
-				</div>
-			</div>
-		</div>
-		<div class="project col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<div class="caption">
-					<h2>번역 / 보고서</h2>
-					<p>열린정부(정부2.0)의 개념과 가치를 알리기 위해서 코드나무는 해외 도서들을 번역하고 있고 공공데이터 개방에 대한 전반적인 컨설팅 및 연구를 진행하고 있습니다. </p>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section class="blog row">
-		<div class="page-header">
-			<h2>Blog <small><a href="#">더 보기</a></small></h2>
-		</div>
-		<div>
-			{% for item in site.categories.blog limit:2 %}
-			<div class="row">
-				<div class="thumbnail col-md-3">
-					<img src="{{ item.splash }}">
-				</div>
-				<div class="col-md-8 col-md-offset-1">
-					<h3><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a><small class='month'>{{item.date | date: '%B %D'}}</small></h3>
-					<P>{{ item.content | truncatewords:75 }}</P>
-				</div>
+<section class="projects-main row">
+	<div class="four columns">
+		<div class="thumbnail">
+			<div class="caption">
+				<h3>Code for Seoul</h3>
+				<p>코드포서울은 IT기술을 활용해서 직접 공공에게 도움이 되는 서비스를 만들 수 있는 개발자,디자이너,기획자 그룹으로 이뤄져 있습니다. 코드나무는 전 세계 시빅 해킹 커뮤니티들과 함께 도시의 문제를 해결하기 위하여 전 세계 시민들과 협력하고 있습니다.</p>
 			</div>
-			{% endfor %}
 		</div>
-	</section>
+	</div>
+	<div class="four columns">
+		<h3>해커톤</h3>
+		<p>코드나무는 공공기관에는 공공정보를 개방할 수 있도록 가이드와 민간의 의견들을 제공하고 민간에서는 공공데이터를 활용한 다양한 서비스와 어플리케이션을 개발을 할 수 있도록 매 년 해커톤을 열고 있습니다.</p>
+	</div>
+	<div class="four columns">
+		<h3>번역 / 보고서</h3>
+		<p>열린정부(정부2.0)의 개념과 가치를 알리기 위해서 코드나무는 해외 도서들을 번역하고 있고 공공데이터 개방에 대한 전반적인 컨설팅 및 연구를 진행하고 있습니다.</p>
+	</div>
+</section>
 
-	<section id="works" class="works row">
-		<div class="page-header">
-			<h2>작업물 <small><a href="#">더 보기</a></small></h2>
-		</div>
-		{% for work in site.data.works %}
-			<div class="work col-sm-6 col-md-3">
-				<div class="thumbnail">
-					<img src="/img/works/{{ work.img }}" alt="{{ work.name }}">
-					<div class="caption">
-						<h4>{{ work.name }}</h4>
-						<p>{{ work.description }}</p>
-						<p><a href="{{ work.url }}" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="{{ work.github }}" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
-					</div>
-				</div>
+<section class="blog-main row">
+	<div class="row">
+		<h2>Blog <small><a href="#">더 보기</a></small></h2>
+	</div>
+	<div class="row">
+		{% for item in site.categories.blog limit:2 %}
+			<div class="three columns">
+				<img src="{{ item.splash }}">
+			</div>
+			<div class="nine columns">
+				<h5><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a><small class='month'>{{item.date | date: '%B %D'}}</small></h5>
+				<P>{{ item.content | truncatewords:55 }}</P>
 			</div>
 		{% endfor %}
-	</section>
+	</div>
+</section>
 
-	<section class="publication row">
-		<div class="page-header">
-			<h2>자료집</h2>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="img/publication/open_government.jpg" alt="열린 정부 만들기">
-				<div class="caption">
-					<h4>[번역] 열린 정부 만들기</h4>
-					<p><a href="#" class="btn btn-default" role="button"><i class="fa fa-arrow-circle-right fa-fw"></i> 사러 가기</a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a></p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="img/publication/gov2.0.jpg" alt="[공동번역] 참여와 소통의 정부2.0">
-				<div class="caption">
-					<h4>[공동번역] 참여와 소통의 정부2.0</h4>
-					<p><a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788996366539" class="btn btn-default" role="button" target="_blank"><i class="fa fa-arrow-circle-right fa-fw"></i> 사러 가기</a> <a href="http://www.scribd.com/doc/63548697/%EC%B0%B8%EC%97%AC%EC%99%80-%EC%86%8C%ED%86%B5%EC%9D%98-%EC%A0%95%EB%B6%802-0-%ED%98%B8%EC%A3%BC-%EC%A0%95%EB%B6%802-0-%ED%83%9C%EC%8A%A4%ED%81%AC%ED%8F%AC%EC%8A%A4-%EB%B3%B4%EA%B3%A0%EC%84%9C%20" class="btn btn-default" role="button" target="_blank"><i class="fa fa-arrow-circle-down fa-lg"></i> PDF 다운로드</a> <a href="/projects/translation/#translation_gov2.0" class="btn btn-default" role="button" target="_blank"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a></p>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
-				<div class="caption">
-					<h4>[보고서] 서울시 열린 데이터 광장 – Open API 검증</h4>
-					<p><a href="http://www.slideshare.net/codenamu/open-api-35911489" class="btn btn-default" role="button" target="_blank"><i class="fa fa-arrow-circle-down fa-lg"></i> PDF 다운로드</a> <a href="" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a></p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="row">
-		<div class="page-header">
-			<h2>함께하는 사람들 <small><a href="#">더 보기</a></small></h2>
-		</div>
-		<div class="partners">
+<section class="works-main row">
+	<div class="row">
+		<h2>결과물 <small><a href="/works">더 보기</a></small></h2>
+	</div>
+	<div class="row">
+	{% for work in site.data.works limit:4 %}
+		<div class="three columns">
+			<img src="/img/works/{{ work.img }}" alt="{{ work.name }}">
+			<h5>{{ work.name }}</h5>
+			<p>{{ work.description }}</p>
 			<div class="row">
-				<div class="partner col-md-6">
-					<a title="CCKOREA" href="http://cckorea.org"><img src="img/partners/cckorea_logo.png" alt="CCKOREA"></a>
+				<div class="small default pretty btn"><a href="{{ work.url }}"><i class="fa fa-home fa-lg"></i></a></div>
+				<div class="small default pretty btn"><a href="{{ work.github }}"><i class="fa fa-github fa-lg"></i></a></div>
+				<div class="small default pretty btn"><a href="#"><i class="fa fa-info-circle fa-lg"></i></a></div>
+			</div>
+		</div>
+	{% endfor %}
+	</div>
+</section>
+
+<section class="publication-main row">
+	<div class="row">
+		<h3>자료집</h3>
+	</div>
+	<div class="row">
+		<div class="four columns">
+			<div class="row">
+				<img src="img/publication/open_government.jpg" alt="열린 정부 만들기" width="100%">
+				<h5>[번역] 열린 정부 만들기</h5>
+			</div>
+			<div class="row">
+				<div class="small default pretty btn">
+					<a href="#"><i class="fa fa-arrow-circle-right fa-fw"></i> 사러 가기</a>
 				</div>
-				<div class="partner col-md-6">
-					<a title="Code for All" href="http://code-for-all.github.io/codeforall.org/"><img src="img/partners/codeforall_logo.png" alt="Code for All"></a>
+				<div class="small default pretty btn">
+					<a href="#"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a>
 				</div>
 			</div>
 		</div>
-	</section>
+		<div class="four columns">
+			<div class="row">
+				<img src="img/publication/gov2.0.jpg" alt="[공동번역] 참여와 소통의 정부2.0">
+				<h5>[공동번역] 참여와 소통의 정부2.0</h5>
+			</div>
+			<div class="row">
+				<div class="small default pretty btn"><a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788996366539" target="_blank"><i class="fa fa-arrow-circle-right fa-fw"></i> 사러 가기</a></div>
+				<div class="small default pretty btn"><a href="http://www.scribd.com/doc/63548697/%EC%B0%B8%EC%97%AC%EC%99%80-%EC%86%8C%ED%86%B5%EC%9D%98-%EC%A0%95%EB%B6%802-0-%ED%98%B8%EC%A3%BC-%EC%A0%95%EB%B6%802-0-%ED%83%9C%EC%8A%A4%ED%81%AC%ED%8F%AC%EC%8A%A4-%EB%B3%B4%EA%B3%A0%EC%84%9C%20" target="_blank"><i class="fa fa-arrow-circle-down fa-lg"></i> PDF 다운로드</a></div>
+				<div class="small default pretty btn"><a href="/projects/translation/#translation_gov2.0" target="_blank"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a></div>
+			</div>
+		</div>
+		<div class="four columns">
+			<div class="row">
+				<img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
+				<h5>[보고서] 서울시 열린 데이터 광장 – Open API 검증</h5>
+			</div>
+			<div class="row">
+				<div class="small default pretty btn">
+					<a href="http://www.slideshare.net/codenamu/open-api-35911489" target="_blank"><i class="fa fa-arrow-circle-down fa-lg"></i> PDF 다운로드</a>
+				</div>
+				<div class="small default pretty btn">
+					<a href="#"><i class="fa fa-info-circle fa-lg"></i> 세부 정보</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="partners-main row">
+	<div class="row">
+		<h3>함께하는 사람들 <small><a href="#">더 보기</a></small></h3>
+	</div>
+	<div class="row">
+		<div class="six columns">
+			<a title="CCKOREA" href="http://cckorea.org"><img src="img/partners/cckorea_logo.png" alt="CCKOREA"></a>
+		</div>
+		<div class="six columns">
+			<a title="Code for All" href="http://code-for-all.github.io/codeforall.org/"><img src="img/partners/codeforall_logo.png" alt="Code for All"></a>
+		</div>
+	</div>
 </section>
