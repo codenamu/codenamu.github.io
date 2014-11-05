@@ -3,18 +3,14 @@ layout: page
 banner: resources_orgs.jpg
 title: 참고자료 - 보고서/외부자료
 ---
-<div class="row papers">
+<div class="papers row">
 	<ul>
 		{% for paper in site.data.paper %}
-		<li class="paper col-sm-6 col-md-3">
+		<li class="paper three columns">
 			<a title="{{paper.name}}" href="{{paper.url}}" target="_blank">
-				<div class="thumbnail">
-					<div class="caption">
-						<h3>{{paper.name}}</h3>
-						<p>{{paper.description}}</p>
-					</div>
-				</div>
+				<h3>{{paper.name}}</h3>
 			</a>
+			<p>{{paper.description}}</p>
 		</li>
 		{% endfor %}
 	</ul>

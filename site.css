@@ -1,81 +1,21 @@
-@import url('assets/bootstrap/dist/css/bootstrap.min.css');
-
-/* customize for bootstrap  */
 ul {
 	list-style: none;
 	padding-left: 0px;
+}
+
+section {
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
 }
 
 .navbar {
 	margin-bottom: 0px;
 }
 
-.jumbotron {
-	margin-bottom: 0px;
+.header-intro-wrap {
 	text-align: center;
 }
 
-.dropdown-menu > li > a {
-	font-size: 17px;
-	padding:5px 25px;
-}
-
-
-/* index */
-.thumbnail {
-	text-align: center;
-}
-
-.project .thumbnail{
-	min-height: 220px;
-}
-
-.blog .thumbnail {
-	margin-top: 20px;
-}
-
-.work {
-	clear:none;
-}
-
-.work > .thumbnail > img {
-	padding: 15px;
-}
-
-.work:nth-of-type(4n+2) {
-	margin-left: 0;
-	clear: both;
-}
-
-.publication .thumbnail {
-	border:0px;
-}
-
-.publication .thumbnail > img {
-	width: 200px;
-	height: 250px;
-}
-
-.publication img {
-	width: 100%;
-}
-
-
-.partners > .row {
-	display: flex;
-}
-
-.partner {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.partner img {
-	width: 60%;
-	margin:0 auto;
-}
 
 /* Resources */
 .organisations li:nth-of-type(4n+1) {
@@ -95,12 +35,7 @@ ul {
 	background-color: #9dc84c;
 }
 
-/* footer */
-footer {
-	margin-top: 50px;
-	background-color: #F8F8F8;
-	border-color: #E7E7E7;
-}
+
 
 
 /* page */
