@@ -12,10 +12,33 @@ section {
 	margin-bottom: 0px;
 }
 
-.header-intro-wrap {
-	text-align: center;
+header {
+	height: 500px;
 }
 
+header .row {
+	height: 100% !important;
+	z-index: 2;
+	position: relative;
+}
+
+.header-intro-wrap {
+	text-align: center;
+	padding-top: 111px;
+	padding-bottom: 111px;
+}
+
+.header-intro-wrap h1 {
+	font-weight: 900;
+}
+
+.header-intro-wrap p {
+	background-color: white;
+}
+
+.terminal {
+	margin-top: 60px;
+}
 
 /* Resources */
 .organisations li:nth-of-type(4n+1) {
