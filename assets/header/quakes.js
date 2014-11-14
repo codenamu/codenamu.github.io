@@ -10,7 +10,7 @@ var concat = require('concat-stream')
 // style fake terminal
 var termEl = term.term.element
 termEl.style['font'] = '12px Monaco, mono'
-termEl.style.height = '100%'
+termEl.style.height = '500px'
 termEl.style.width = '100%'
 termEl.style.padding = '5px'
 termEl.style.overflow = 'hidden'
@@ -31,7 +31,7 @@ var parsedURL = url.parse(window.location.href, true)
 
 var csv = parsedURL.query.csv || 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv'
 
-xhr({ responseType: 'arraybuffer', url: 'http://cors.maxogden.com/' + csv }, response)
+xhr({ responseType: 'arraybuffer', url: 'assets/community/community.csv' }, response)
 
 function response(err, resp, data) {
   if (err) throw err
@@ -49,11 +49,11 @@ function render(rows) {
     var offset = (i + 1) * 1000
     schedule(sub, offset)
   }
-  
+
   function schedule(sub, offset) {
     setTimeout(function() {
       term.reset()
-      term.write(tablify(sub))    
+      term.write(tablify(sub))
     }, offset)
   }
 }
