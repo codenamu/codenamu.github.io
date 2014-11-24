@@ -3,7 +3,7 @@ var _ = require('underscore'),
     github = require('octonode');
 
 var githubSecretKey = '47982605165387198cdb36a181baa1a78bc10f3a',
-    team_list = ['teampopong', 'peace-code', 'codeforseoul', 'last'],
+    team_list = ['last', 'teampopong', 'peace-code', 'codeforseoul'],
     events = [];
 
 var client = github.client(githubSecretKey);
@@ -54,7 +54,7 @@ var createNewCsv = function (teams, callback) {
   })
 }
 
-var writeEventsToCsv function (events_list, file) {
+var writeEventsToCsv = function (events_list, file) {
   events_list.sort(function(a,b){return Number(new Date(b.created_at)) - Number(new Date(a.created_at));});
   _.each(events_list, function (event) {
     file.write(_.toArray(event).slice(0, 8).join(', ') + ', ' + event["created_at"] + '\n');
