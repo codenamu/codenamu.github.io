@@ -2,10 +2,9 @@
 layout: default
 ---
 
-
 {% include header.html %}
-<section class="main container">
-  <section class="projects-main row">
+<section class="main">
+  <section class="projects-main row container">
     <div class="project col-md-4">
       <img src="/img/main/project_1.png" alt="Code for Seoul">
       <div class="caption">
@@ -31,7 +30,8 @@ layout: default
       <img class="thumbnail-desc" src="/img/main/document.jpg" alt="번역/보고서">
     </div>
   </section>
-
+</section>
+<section>
   <section class="blog-main row">
     <div class="badge-heading badge-blog row">
       <h3>Blog</h3>
@@ -43,7 +43,8 @@ layout: default
       {% endfor %}
     </div>
   </section>
-
+</section>
+<section class="container">
   <section class="works-main row">
     <div class="badge-heading badge-works row">
       <h2>결과물</h2>
@@ -72,18 +73,14 @@ layout: default
     </div>
     <div class="row">
       <div class="publication col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/publication/open_government.jpg" alt="열린 정부 만들기" width="100%">
-        </a>
+        <img src="img/publication/open_government.jpg" alt="열린 정부 만들기" width="100%">
 <!--        <div class="row">
   <button class="btn btn-default"><a href="#"><span class="glyphicon glyphicon-globe"></span> 사러 가기</a></button>
   <button class="btn btn-default"><a href="#"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
 </div> -->
       </div>
       <div class="publication col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/publication/gov2.0.jpg" alt="[공동번역] 참여와 소통의 정부2.0">
-        </a>
+        <img src="img/publication/gov2.0.jpg" alt="[공동번역] 참여와 소통의 정부2.0">
 <!--        <div class="row">
   <button class="btn btn-default"><a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788996366539" target="_blank"><span class="glyphicon glyphicon-globe"></span> 사러 가기</a></button>
   <button class="btn btn-default"><a href="http://www.scribd.com/doc/63548697/%EC%B0%B8%EC%97%AC%EC%99%80-%EC%86%8C%ED%86%B5%EC%9D%98-%EC%A0%95%EB%B6%802-0-%ED%98%B8%EC%A3%BC-%EC%A0%95%EB%B6%802-0-%ED%83%9C%EC%8A%A4%ED%81%AC%ED%8F%AC%EC%8A%A4-%EB%B3%B4%EA%B3%A0%EC%84%9C%20" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
@@ -91,9 +88,7 @@ layout: default
 </div> -->
       </div>
       <div class="publication col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
-        </a>
+        <img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
 <!--        <div class="row">
   <button class="btn btn-default"><a href="http://www.slideshare.net/codenamu/open-api-35911489" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
   <button class="small default pretty btn"><a href="#"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
