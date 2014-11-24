@@ -3,7 +3,7 @@ var _ = require('underscore'),
     github = require('octonode');
 
 var githubSecretKey = '47982605165387198cdb36a181baa1a78bc10f3a',
-    team_list = ['teampopong', 'peace-code', 'codeforseoul'],
+    team_list = ['teampopong', 'peace-code', 'codeforseoul', 'last'],
     events = [];
 
 var client = github.client(githubSecretKey);
