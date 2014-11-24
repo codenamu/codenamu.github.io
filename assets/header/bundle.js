@@ -6514,14 +6514,14 @@ var concat = require('concat-stream')
 // style fake terminal
 var termEl = term.term.element
 termEl.style['font'] = '12px Monaco, mono'
-termEl.style.height = '500px'
+termEl.style.height = '400px'
 termEl.style.width = '100%'
 termEl.style.padding = '5px'
 termEl.style.overflow = 'hidden'
 termEl.style.position = 'absolute'
 termEl.style.top = '0px'
 termEl.style['white-space'] = 'pre'
-termEl.style['z-index'] = '1'
+// termEl.style['z-index'] = '1'
 termEl.style['background'] = '#f7f7f7'
 termEl.style['color'] = '#bbb'
 

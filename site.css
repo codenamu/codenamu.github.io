@@ -61,9 +61,13 @@ ul {
   border-color: white;
 }
 
+nav {
+  z-index: 1;
+}
+
 .nav > li > a {
   color: #5b5a5a;
-  padding: 15px 22px;
+  padding: 21px 22px;
 }
 
 .logo {
@@ -74,11 +78,11 @@ ul {
 
 header {
   height: 400px;
+  z-index: 2;
 }
 
 header .row {
   height: 100%;
-  z-index: 2;
   position: relative;
 }
 
