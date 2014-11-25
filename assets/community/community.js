@@ -2,11 +2,11 @@ var _ = require('underscore'),
     fs = require('fs'),
     github = require('octonode');
 
-var githubSecretKey = process.env.GITHUB_SECRET_KEY,
-    team_list = ['last', 'teampopong', 'peace-code', 'codeforseoul'],
+var team_list = ['last', 'teampopong', 'peace-code', 'codeforseoul'],
     events = [];
 
-var client = github.client(githubSecretKey);
+// should set GITHUB_SECRET_KEY to environment variable
+var client = github.client(process.env.GITHUB_SECRET_KEY);
 
 var getEventsByOrg = function (orgs_id) {
   return function (callback) {
@@ -37,7 +37,6 @@ var createNewCsv = function (teams, callback) {
   var file = fs.createWriteStream("./community.csv");
   file.on('error', function (err) {});
   file.write("id, type, login, gravatar_id, url, avatar_url, name, push_id, created_at \n");
-
   _.each(teams, function (team, index, list) {
     if (index == team_list.length-1) {
       var getEventsByThisOrg = getEventsByOrg(team);
@@ -46,9 +45,7 @@ var createNewCsv = function (teams, callback) {
       });
     } else {
       var getEventsByThisOrg = getEventsByOrg(team);
-      getEventsByThisOrg(function () {
-
-      });
+      getEventsByThisOrg(function () { return; });
     }
   })
 }
