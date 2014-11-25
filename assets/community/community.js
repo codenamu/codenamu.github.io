@@ -2,7 +2,7 @@ var _ = require('underscore'),
     fs = require('fs'),
     github = require('octonode');
 
-var githubSecretKey = '47982605165387198cdb36a181baa1a78bc10f3a',
+var githubSecretKey = process.env.GITHUB_SECRET_KEY,
     team_list = ['last', 'teampopong', 'peace-code', 'codeforseoul'],
     events = [];
 
@@ -12,7 +12,6 @@ var getEventsByOrg = function (orgs_id) {
   return function (callback) {
     client.get('/orgs/' + orgs_id + '/events', {}, function (err, status, body, headers) {
       if (err) { return new Error(err) }
-
       body = _.map(body, function (el) {
         var fixedEvent = {};
         removeJsonDepth(el, fixedEvent);
@@ -44,8 +43,8 @@ var createNewCsv = function (teams, callback) {
       var getEventsByThisOrg = getEventsByOrg(team);
       getEventsByThisOrg(function () {
         callback(events, file);
-      }); 
-    } else { 
+      });
+    } else {
       var getEventsByThisOrg = getEventsByOrg(team);
       getEventsByThisOrg(function () {
 
