@@ -8,6 +8,10 @@ ul {
   padding-left: 0px;
 }
 
+a {
+  color: #EE4446;
+}
+
 /* All */
 .row {
   margin-left: 0px;
@@ -56,18 +60,41 @@ ul {
 
 /* Header */
 
+nav {
+  z-index: 1;
+}
+
+.navbar {
+  margin-bottom: 0px
+}
+
 .navbar-default {
   background-color: white;
   border-color: white;
 }
 
-nav {
-  z-index: 1;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #EE4446;
 }
 
 .nav > li > a {
   color: #5b5a5a;
   padding: 21px 22px;
+}
+
+.dropdown-menu {
+  border: 0px;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.dropdown-menu > li > a {
+  padding: 3px 97px 4px 40px;
+  font-weight: bold;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:active {
+  color: #EE4446;
 }
 
 .logo {
@@ -105,6 +132,10 @@ header .row {
 }
 
 /* index */
+.container {
+  margin: 0 auto;
+}
+
 .main h3 {
   font-size: 44px;
 }
@@ -167,7 +198,7 @@ header .row {
 }
 
 .blog-main {
-  background-color: #7C868C;
+  background-color: #EE4446;
   color: white;
 }
 
@@ -184,7 +215,8 @@ header .row {
 }
 
 .publications-main {
-  background-color: #7C868C;
+  background-color: #29A9E1;
+  color: white;
 }
 
 .publication {
@@ -197,6 +229,11 @@ header .row {
   margin: 0 auto;
 }
 
+/* Page */
+.page-banner h1 {
+  text-align: center;
+}
+
 /* Resources */
 .organisations li:nth-of-type(4n+1) {
   margin-left: 0;
@@ -205,6 +242,11 @@ header .row {
 
 .organisations .thumbnail > img {
   min-height: 150px;
+}
+
+.organisations .org {
+  min-height: 100px;
+  margin-bottom: 20px;
 }
 
 /* labeling for tools  */

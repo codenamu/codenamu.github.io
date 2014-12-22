@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% include header.html %}
-<section class="main container">
-  <section class="projects-main row">
+<section class="projects-main">
+  <section class="row container">
     <div class="project col-md-4">
       <img src="/img/main/project_1.png" alt="Code for Seoul">
       <div class="caption">
@@ -31,8 +31,8 @@ layout: default
     </div>
   </section>
 </section>
-<section>
-  <section class="blog-main row">
+<section class="blog-main">
+  <section class="row container">
     <div class="badge-heading badge-blog row">
       <h3>Blog</h3>
       {% for item in site.categories.blog limit:2 %}
@@ -44,10 +44,11 @@ layout: default
     </div>
   </section>
 </section>
-<section class="container">
-  <section class="works-main row">
+<section class="works-main">
+  <section class="row container">
     <div class="badge-heading badge-works row">
       <h2>결과물</h2>
+      <p>코드나무 활동가들이 그동안 만든 웹/앱 서비스 목록입니다.</p> 
     </div>
     <div class="row">
     {% for work in site.data.works limit:4 %}
@@ -66,38 +67,45 @@ layout: default
     {% endfor %}
     </div>
   </section>
-
-  <section class="publications-main row">
+</section>
+<section class="publications-main ">
+  <section class="row container">
     <div class="badge-heading badge-publications row">
       <h3>자료집</h3>
+      <p>코드나무 활동가들이 그동안 만든 결과물들입니다.</p>
     </div>
     <div class="row">
       <div class="publication col-md-4">
         <img src="img/publication/open_government.jpg" alt="열린 정부 만들기" width="100%">
-<!--        <div class="row">
-  <button class="btn btn-default"><a href="#"><span class="glyphicon glyphicon-globe"></span> 사러 가기</a></button>
-  <button class="btn btn-default"><a href="#"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
-</div> -->
+        <h4>열린 정부 만들기</h4>
+        <p><a href="#">교보문고</a> | <a href="#">알라딘</a> | <a href="#">예스24</a> | <a href="#">인터파크</a></p>
+        <p><a href="#">2장, 25장 바로보기</a> | <a href="https://docs.google.com/document/d/1TbobpKJ-7eR9WIKXlCn5tXBvtJR9gzdfOwpbp7XBhHs/edit?userstoinvite=donnaronjeff1@att.net">스터디 노트</a></p>
       </div>
       <div class="publication col-md-4">
         <img src="img/publication/gov2.0.jpg" alt="[공동번역] 참여와 소통의 정부2.0">
-<!--        <div class="row">
-  <button class="btn btn-default"><a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788996366539" target="_blank"><span class="glyphicon glyphicon-globe"></span> 사러 가기</a></button>
-  <button class="btn btn-default"><a href="http://www.scribd.com/doc/63548697/%EC%B0%B8%EC%97%AC%EC%99%80-%EC%86%8C%ED%86%B5%EC%9D%98-%EC%A0%95%EB%B6%802-0-%ED%98%B8%EC%A3%BC-%EC%A0%95%EB%B6%802-0-%ED%83%9C%EC%8A%A4%ED%81%AC%ED%8F%AC%EC%8A%A4-%EB%B3%B4%EA%B3%A0%EC%84%9C%20" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
-  <button class="btn btn-default"><a href="/projects/translation/#translation_gov2.0" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
-</div> -->
+        <h4>참여와 소통의 정부 2.0</h4>
+        <p><a href="#">교보문고</a> | <a href="#">알라딘</a> | <a href="#">예스24</a> | <a href="#">인터파크</a></p>
+        <p>PDF 공개 문서: <a href="#">바로보기</a> | <a href="#">다운로드</a></p>
+<!--         
+        <div class="row">
+          <button class="btn btn-default"><a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788996366539" target="_blank"><span class="glyphicon glyphicon-globe"></span> 사러 가기</a></button>
+          <button class="btn btn-default"><a href="http://www.scribd.com/doc/63548697/%EC%B0%B8%EC%97%AC%EC%99%80-%EC%86%8C%ED%86%B5%EC%9D%98-%EC%A0%95%EB%B6%802-0-%ED%98%B8%EC%A3%BC-%EC%A0%95%EB%B6%802-0-%ED%83%9C%EC%8A%A4%ED%81%AC%ED%8F%AC%EC%8A%A4-%EB%B3%B4%EA%B3%A0%EC%84%9C%20" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
+          <button class="btn btn-default"><a href="/projects/translation/#translation_gov2.0" target="_blank"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
+        </div>
+         -->
       </div>
       <div class="publication col-md-4">
         <img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
-<!--        <div class="row">
-  <button class="btn btn-default"><a href="http://www.slideshare.net/codenamu/open-api-35911489" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
-  <button class="small default pretty btn"><a href="#"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
-</div> -->
+        <div class="row">
+          <button class="btn btn-default"><a href="http://www.slideshare.net/codenamu/open-api-35911489" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
+          <button class="small default pretty btn"><a href="#"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
+        </div>
       </div>
     </div>
   </section>
-
-  <section class="partners-main row">
+</section>
+<section class="partners-main">
+  <section class="row container">
     <div class="badge-heading badge-partner row">
       <h3>함께하는 사람들</h3>
     </div>

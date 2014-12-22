@@ -6535,7 +6535,7 @@ var parsedURL = url.parse(window.location.href, true)
 
 var csv = parsedURL.query.csv || 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv'
 
-xhr({ responseType: 'arraybuffer', url: 'assets/community/community.csv' }, response)
+xhr({ responseType: 'arraybuffer', url: 'https://dl.dropboxusercontent.com/u/61713888/codenamu/activities.csv' }, response)
 
 function response(err, resp, data) {
   if (err) throw err
@@ -6916,7 +6916,7 @@ function base64Write (buf, string, offset, length) {
 }
 
 function utf16leWrite (buf, string, offset, length) {
-  var charsWritten = blitBuffer(utf16leToBytes(string), buf, offset, length)
+  var charsWritten = blitBuffer(utf16leToBytes(string), buf, offset, length, 2)
   return charsWritten
 }
 
@@ -7600,7 +7600,8 @@ function base64ToBytes (str) {
   return base64.toByteArray(str)
 }
 
-function blitBuffer (src, dst, offset, length) {
+function blitBuffer (src, dst, offset, length, unitSize) {
+  if (unitSize) length -= length % unitSize;
   for (var i = 0; i < length; i++) {
     if ((i + offset >= dst.length) || (i >= src.length))
       break

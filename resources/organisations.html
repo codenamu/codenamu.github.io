@@ -6,24 +6,24 @@ title: 참고자료 - 단체/기관
 
 {% for orgs in site.data.resources.orgs %}
 <section class="organisations row">
-	<div class="row">
-		<h2>{{ orgs.category }}</h2>
-	</div>
-	<ul>
-		{% for org in orgs.list %}
-		<li class="three columns">
-			<img src="/img/orgs/{{org.img}}" alt="{{org.name}}">
-			<div class="row">
-				<a title="{{org.name}}" href="{{org.url}}"  target="_blank">
-					<h5>{{org.name}}</h5>
-				</a>
-				<p>{{org.description}}</p>
-			</div>
-		</li>
-		{% endfor %}
-	</ul>
+  <div class="row">
+    <h2>{{ orgs.category }}</h2>
+  </div>
+  <ul>
+    {% for org in orgs.list %}
+    <li class="org col-md-6">
+      <div class="col-md-4">
+        <img src="/img/orgs/{{org.img}}" alt="{{org.name}}" width="100%">
+      </div>
+      <div class="col-md-8">
+        <h4><a href="{{ org.url }}" title="{{ org.name }}" target="_blank">{{ org.name }}</a></h4>
+        <p>{{ org.desc }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 {% endfor %}
 <div class="row">
-	<small><a href="https://www.flickr.com/photos/wowcckorea/14791928521">Banner Image</a> - CC BY from CCKOREA</small>
+  <small><a href="https://www.flickr.com/photos/wowcckorea/14791928521">Banner Image</a> - CC BY from CCKOREA</small>
 </div>
