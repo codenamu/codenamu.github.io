@@ -1,48 +1,67 @@
 <nav class="navbar navbar-default" role="navigation" style="z-index: 1;">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="/"><img src="/img/main/logo.png" alt="Codenamu"></a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="active dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">소개 <span class="caret"></span></a>
-	        <ul class="dropdown-menu" role="menu">
-	          <li><a href="/about/codenamu">코드나무는?</a></li>
-	          <li class="divider"></li>
-						<li><a href="/about/people">함께하는 사람들</a></li>
-	        </ul>
-				</li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">프로젝트 <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="/projects/codeforseoul">코드포서울</a></li>
-	          <li class="divider"></li>
-						<li><a href="/projects/hackathon">해커톤</a></li>
-	          <li class="divider"></li>
-						<li><a href="/projects/paper">서적/보고서</a></li>
-					</ul>
-				</li>
-				<li><a href="/works">결과물</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">참고자료 <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="/resources/organisations">단체/기관</a></li>
-	          <li class="divider"></li>
-						<li><a href="/resources/tools">서비스/도구</a></li>
-	          <li class="divider"></li>
-						<li><a href="/resources/paper">보고서/외부자료</a></li>
-					</ul>
-				</li>
-				<li><a href="/blog">블로그</a></li>
-				<li><a href="/joinus">참여하기</a></li>
-			</ul>
-		</div>
-	</div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img src="/img/main/logo.png" alt="Codenamu"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li id="navabout" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">소개 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/about/codenamu">코드나무는?</a></li>
+            <li class="divider"></li>
+            <li><a href="/about/people">함께하는 사람들</a></li>
+          </ul>
+        </li>
+        <li id="navprojects" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">프로젝트 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/projects/codeforseoul">코드포서울</a></li>
+            <li class="divider"></li>
+            <li><a href="/projects/hackathon">해커톤</a></li>
+            <li class="divider"></li>
+            <li><a href="/projects/paper">서적/보고서</a></li>
+          </ul>
+        </li>
+        <li id="navworks"><a href="/works">결과물</a></li>
+        <li id="navresources" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">참고자료 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/resources/organisations">단체/기관</a></li>
+            <li class="divider"></li>
+            <li><a href="/resources/tools">서비스/도구</a></li>
+            <li class="divider"></li>
+            <li><a href="/resources/paper">보고서/외부자료</a></li>
+          </ul>
+        </li>
+        <li id="navblog"><a href="/blog">블로그</a></li>
+        <li id="navjoinus"><a href="/joinus">참여하기</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
+
+<script>
+window.onload = function () {
+  var menuList = ['navabout', 'navprojects', 'navworks', 'navresources', 'navblog', 'navjoinus'];
+  var removeActive = function () {
+    for (var i in menuList) {
+      $(menuList[i]).removeClass('active');
+    }
+  }
+  var addActive = function () {
+    var currentUrl = window.location.pathname;
+    var currentLocation = currentUrl.split('/');
+    $('#nav' + currentLocation[1]).addClass('active');
+  }
+
+  removeActive();
+  addActive();
+};
+</script>

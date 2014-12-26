@@ -1,8 +1,9 @@
-- category: "in Korea"
+- category: "Korea"
   list:
   - name: "Team Popong"
     img: "popong_logo.png"
   - name: "PEACE CODE"
+    img: "peacecode_logo.png"
 
 - category: "Code for All"
   list:

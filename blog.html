@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<div class='listing col6 pad4h margin3'>
+<div class='listing col-md-6'>
   {% for item in site.categories.blog limit:1000 %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
     {% capture ndate %}{{ item.next.date | date: '%B %Y' }}{% endcapture %}
@@ -14,4 +14,6 @@ layout: page
   {% endfor %}
 </div>
 
+<!-- 
 {% include rss-link.html %}
+ -->

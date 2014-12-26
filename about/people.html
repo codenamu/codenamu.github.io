@@ -9,3 +9,28 @@ title: 함께하는 사람들
 		<li class="person col-sm-2 col-md-3"></li>
 	</ul>
 </section>
+
+
+{% for category in site.data.about.people %}
+<section class="people row">
+  <div class="row">
+    <h2>{{ category.category }}</h2>
+  </div>
+  <ul>
+    {% for person in category.list %}
+    <li class="person col-md-6">
+      <div class="col-md-4">
+        <img src="/img/orgs/{{person.img}}" alt="{{person.name}}" width="100%">
+      </div>
+      <div class="col-md-8">
+        <h4><a href="{{ person.url }}" title="{{ person.name }}" target="_blank">{{ person.name }}</a><span> | {{ person.interest }}</span></h4>
+        <p>{{ person.introduce }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+<div class="row">
+  <small><a href="https://www.flickr.com/photos/wowcckorea/14791928521">Banner Image</a> - CC BY from CCKOREA</small>
+</div>

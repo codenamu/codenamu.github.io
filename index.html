@@ -37,7 +37,7 @@ layout: default
       <h3>Blog</h3>
       {% for item in site.categories.blog limit:2 %}
         <div class="blog row">
-          <h4><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h4>
+          <h3><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h3>
           <P>{{ item.content | truncatewords:55 }}</P>
         </div>
       {% endfor %}
