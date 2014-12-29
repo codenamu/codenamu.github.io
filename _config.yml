@@ -15,7 +15,11 @@ prose:
           placeholder: "Choose Category"
           options: 
             - name: "블로그"
-              value: "Blog"
+              value: "blog"
+            - name: "공지사항"
+              value: "notice"
+            - name: "외부소식"
+              value: "news"
       - name: "layout"
         field:
           element: "hidden"

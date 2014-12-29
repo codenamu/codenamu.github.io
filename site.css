@@ -1,3 +1,7 @@
+body {
+  font-size: 18px;
+}
+
 h1, h2, h3 {
   line-height: 44px;
   margin: 0px;
@@ -85,6 +89,7 @@ nav {
 }
 
 .dropdown-menu {
+  font-size: 16px;
   border: 0px;
   box-shadow: 0px 0px 0px 0px;
 }
@@ -116,8 +121,8 @@ header .row {
 
 .header-intro-wrap {
   text-align: center;
-  padding-top: 111px;
-  padding-bottom: 111px;
+  padding-top: 166px;
+  padding-bottom: 166px;
 }
 
 .header-intro-wrap h1 {
@@ -149,6 +154,12 @@ header .row {
   background-color: #F2F2F2;
   position: relative;
   text-align: center;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .project {
+    margin-left: 0px;
+  }
 }
 
 .project h4 {
