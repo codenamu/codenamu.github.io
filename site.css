@@ -285,3 +285,14 @@ header .row {
   color: white;
   font-weight: 750;
 }
+
+/* Blog */
+
+.heading {
+  margin: 80px 0;
+}
+
+.prose img {
+  width: 80%;
+  margin: 30px 0;
+}

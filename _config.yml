@@ -10,7 +10,7 @@ prose:
     _posts:
       - name: "category"
         field:
-          element: "multiselect"
+          element: "select"
           value: "Add Category"
           placeholder: "Choose Category"
           options: 
