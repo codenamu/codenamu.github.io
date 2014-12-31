@@ -6514,7 +6514,7 @@ var concat = require('concat-stream')
 // style fake terminal
 var termEl = term.term.element
 termEl.style['font'] = '12px Monaco, mono'
-termEl.style.height = '400px'
+termEl.style.height = '500px'
 termEl.style.width = '100%'
 termEl.style.padding = '5px'
 termEl.style.overflow = 'hidden'
@@ -6541,7 +6541,10 @@ function response(err, resp, data) {
   if (err) throw err
   var buff = new Buffer(new Uint8Array(data))
   var parser = bcsv({json: true})
-  document.querySelector('.easteregg').style.display = 'block'
+  document.querySelector('.easteregg').style.display = 'block';
+  document.querySelector('.easteregg').style.position = 'absolute';
+  document.querySelector('.easteregg').style.bottom = '0px';
+  document.querySelector('.easteregg').style.right = '0px';
   parser.pipe(concat(render))
   parser.write(buff)
   parser.end()

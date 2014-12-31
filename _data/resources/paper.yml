@@ -1,20 +1,15 @@
-- name: "Beyond Transparency" 
-  url: "http://beyondtransparency.org/"
+- name: "Civic Exchange"
+  url: "http://www.nesta.org.uk/civic-exchange"
+  from: "Nesta"
   cover: ""
-  description: "This book is a resource for (and by) practitioners inside and outside government—from the municipal chief information officer to the community organizer to the civic-minded entrepreneur."
+  description: "Produced as part of the Code for Europe project, Civic Exchange showcased examples of civic technology from across Europe and around the world."
+
+- name: "Open data roadmap for the UK - 2015" 
+  url: "http://theodi.org/roadmap-uk-2015"
+  cover: ""
+  description: "Open Data Roadmap for the UK in 2015 published by ODI"
 
 - name: "Beyond Transparency" 
   url: "http://beyondtransparency.org/"
   cover: ""
   description: "This book is a resource for (and by) practitioners inside and outside government—from the municipal chief information officer to the community organizer to the civic-minded entrepreneur."
-
-- name: "Beyond Transparency" 
-  url: "http://beyondtransparency.org/"
-  cover: ""
-  description: "This book is a resource for (and by) practitioners inside and outside government—from the municipal chief information officer to the community organizer to the civic-minded entrepreneur."
-
-- name: "Beyond Transparency" 
-  url: "http://beyondtransparency.org/"
-  cover: ""
-  description: "This book is a resource for (and by) practitioners inside and outside government—from the municipal chief information officer to the community organizer to the civic-minded entrepreneur."
-

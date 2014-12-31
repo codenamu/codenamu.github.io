@@ -1,11 +1,11 @@
-- category: "Korea"
+- category: "국내 단체/커뮤니티"
   list:
-  - name: "Team Popong"
+  - name: "팀포퐁(Team Popong)"
     img: "popong_logo.png"
-  - name: "PEACE CODE"
+  - name: "피스코드(PEACE CODE)"
     img: "peacecode_logo.png"
 
-- category: "Code for All"
+- category: "코드포올(Code for All)"
   list:
     - name: "Code for Africa"
       img: "codeforafrica_logo.png"
@@ -75,12 +75,11 @@
     - name: "Hacking Monterrey"
       img: ""
       url: "http://hackingmty.org/"
-
-- category: "Others"
+- category: "그 외"
   list:
-    - name: "Open Knowledge Foundation"
+    - name: "열린 지식 재단(Open Knowledge Foundation)"
       img: "okfn_logo.jpeg"
       url: "http://codenamu.org"
-    - name: "Sunlight Foundation"
+    - name: "선라이트 재단(Sunlight Foundation)"
       img: "sunlight_logo.png"
       url: "http://sunlightfoundation.com/"

@@ -6,9 +6,7 @@ title: 참고자료 - 단체/기관
 
 {% for orgs in site.data.resources.orgs %}
 <section class="organisations row">
-  <div class="row">
-    <h2>{{ orgs.category }}</h2>
-  </div>
+  <h2 class="page-header">{{ orgs.category }}</h2>
   <ul>
     {% for org in orgs.list %}
     <li class="org col-md-6">

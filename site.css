@@ -110,7 +110,7 @@ nav {
 }
 
 header {
-  height: 400px;
+  height: 500px;
   z-index: 2;
 }
 
@@ -121,8 +121,8 @@ header .row {
 
 .header-intro-wrap {
   text-align: center;
-  padding-top: 166px;
-  padding-bottom: 166px;
+  padding-top: 216px;
+  padding-bottom: 216px;
 }
 
 .header-intro-wrap h1 {
@@ -246,6 +246,14 @@ header .row {
   text-align: center;
 }
 
+/* About */
+
+li.person:nth-of-type(2n+1) {
+  margin-left: 0;
+  clear: both;
+}
+
+
 /* Resources */
 .organisations li:nth-of-type(4n+1) {
   margin-left: 0;
@@ -295,4 +303,9 @@ header .row {
 .prose img {
   width: 80%;
   margin: 30px 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
 }

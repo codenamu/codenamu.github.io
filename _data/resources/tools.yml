@@ -1,4 +1,4 @@
-- category: "Library"
+- category: "라이브러리"
   list:
     - name: "D3.js"
       label: "데이터 시각화"
@@ -11,7 +11,7 @@
       url: "http://fastly.github.io/epoch"
       description: "D3.js를 활용하여 실시간 그래프를 구현할 수 있는 자바스크립트 라이브러리입니다. Epoch를 활용하여 실시간으로 들어오는 데이터를 동적인 그래프로 쉽게 표현할 수 있습니다."
 
-- category: "Service"
+- category: "서비스"
   list:
     - name: "Github & Government"
       url: "https://government.github.com/"
