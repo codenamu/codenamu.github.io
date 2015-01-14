@@ -6543,8 +6543,8 @@ function response(err, resp, data) {
   var parser = bcsv({json: true})
   document.querySelector('.easteregg').style.display = 'block';
   document.querySelector('.easteregg').style.position = 'absolute';
-  document.querySelector('.easteregg').style.bottom = '0px';
-  document.querySelector('.easteregg').style.right = '0px';
+  document.querySelector('.easteregg').style.bottom = '23px';
+  document.querySelector('.easteregg').style.right = '40px';
   parser.pipe(concat(render))
   parser.write(buff)
   parser.end()

@@ -34,22 +34,24 @@ layout: default
 <section class="blog-main">
   <section class="row container">
     <div class="badge-heading badge-blog row">
-      <h3>Blog</h3>
-      {% for item in site.posts limit:2 %}
-        <div class="blog row">
-          <h3><a class='item' href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></h3>
-          <p>- <a href="/categories/{{item.category}}">{{ item.category }}</a></p>
-          <P>{{ item.content | truncatewords:55 }}</P>
-        </div>
-      {% endfor %}
+      <h2>Blog <span class="subtitle">코드나무의 소식과 글입니다.</span></h2>
+      <div class="blog row">
+        {% for item in site.posts limit:2 %}
+          <div class="col-md-4">
+            <h3><a href="{{site.baseurl}}{{item.url}}" class="item">{{item.title}}</a></h3>
+            <p>- <a href="/categories/{{item.category}}">{{ item.category }}</a></p>
+            <P>{{ item.content | truncatewords:55 }}</P>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </section>
 </section>
 <section class="works-main">
   <section class="row container">
     <div class="badge-heading badge-works row">
-      <h2>결과물</h2>
-      <p>코드나무 활동가들이 그동안 만든 웹/앱 서비스 목록입니다.</p> 
+      <h2>결과물 <span class="subtitle">코드나무 활동가들이 그동안 만든 웹/앱 서비스 목록입니다.</span> </h2>
+      
     </div>
     <div class="row">
     {% for work in site.data.works limit:4 %}
@@ -72,8 +74,7 @@ layout: default
 <section class="publications-main ">
   <section class="row container">
     <div class="badge-heading badge-publications row">
-      <h3>자료집</h3>
-      <p>코드나무 활동가들이 그동안 만든 결과물들입니다.</p>
+      <h2>자료집 <span class="subtitle">코드나무 활동가들이 그동안 만든 결과물들입니다.</span></h2>
     </div>
     <div class="row">
       <div class="publication col-md-4">
@@ -97,10 +98,7 @@ layout: default
       </div>
       <div class="publication col-md-4">
         <img src="img/etc/report.png" alt="[보고서] 서울시 열린 데이터 광장 – Open API 검증">
-        <div class="row">
-          <button class="btn btn-default"><a href="http://www.slideshare.net/codenamu/open-api-35911489" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
-          <button class="small default pretty btn"><a href="#"><span class="glyphicon glyphicon-info-sign"></span> 세부 정보</a></button>
-        </div>
+        <h4>서울시 열린 데이터 광장 Open API 검증 보고서</h4>
       </div>
     </div>
   </section>
