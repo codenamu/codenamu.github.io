@@ -3,19 +3,20 @@ layout: page
 banner: resources_orgs.jpg
 title: 참고자료 - 보고서/외부자료
 ---
-
-<div class="papers row">
-  <ul>
-    {% for paper in site.data.resources.paper %}
-    <li class="paper col-md-4">
-      <a title="{{paper.name}}" href="{{paper.url}}" target="_blank">
-        <h3>{{paper.name}}</h3>
-      </a>
-      <p>{{paper.description}}</p>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-<div class="row">
-  <small><a href="https://www.flickr.com/photos/wowcckorea/14791928521">Banner Image</a> - CC BY from CCKOREA</small>
-</div>
+<section class="container">
+  <section class="papers row">
+    <ul>
+      {% for paper in site.data.resources.paper %}
+      <li class="paper col-md-4">
+        <a title="{{paper.name}}" href="{{paper.url}}" target="_blank">
+          <h3>{{paper.name}}</h3>
+        </a>
+        <p>{{paper.description}}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <div class="row">
+    <small><a href="https://www.flickr.com/photos/wowcckorea/14791928521">Banner Image</a> - CC BY from CCKOREA</small>
+  </div>
+</section>

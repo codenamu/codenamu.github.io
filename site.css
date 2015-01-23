@@ -1,5 +1,7 @@
 body {
   font-size: 18px;
+  line-height: 25px;
+  color: #666666;
 }
 
 h1, h2, h3 {
@@ -14,6 +16,10 @@ ul {
 
 a {
   color: #EE4446;
+}
+
+img {
+  width: 100%;
 }
 
 /* All */
@@ -118,7 +124,7 @@ nav {
 }
 
 header {
-  height: 500px;
+  height: 400px;
   z-index: 2;
 }
 
@@ -127,10 +133,14 @@ header .row {
   position: relative;
 }
 
+header img {
+  width: 50%;
+}
+
 .header-intro-wrap {
   text-align: center;
-  padding-top: 216px;
-  padding-bottom: 216px;
+  padding-top: 154px;
+  padding-bottom: 154px;
 }
 
 .header-intro-wrap h1 {
@@ -305,36 +315,31 @@ header .row {
 
 /* About */
 
-.about-codenamu {
+.page-codenamu {
   font-size: 16px;
   line-height: 22px;
+  margin-top: -70px;
 }
 
-.about-codenamu .row-1 {
+.page-codenamu .row-1 {
   background-color: #29A9E1;
   color: white;
   font-size: 16px;
   line-height: 28px;
 }
 
-.about-codenamu .row-1 div div:last-child {
+.page-codenamu .row-1 div div:last-child {
   height: 450px;
   background: url('/img/about/codenamu/intro_1.png') left top no-repeat;
   background-size: cover;
 }
 
-.about-codenamu .row-2 .col-1 h1, .about-codenamu .row-2 .col-1 h1 {
+.page-codenamu .row-2 .col-1 h1, .page-codenamu .row-2 .col-1 h4 {
   color: #29A9E1;
 }
 
-.about-codenamu .row-2 .col-2 h1, .about-codenamu .row-2 .col-2 h4 {
+.page-codenamu .row-2 .col-2 h1, .page-codenamu .row-2 .col-2 h4 {
   color: #DE404A
-}
-
-.about-codenamu .page-inner-banner {
-  background: url('/img/about/codenamu/inner_banner.png') 0px -70px no-repeat;
-  background-size: cover;
-  min-height: 450px;
 }
 
 li.person:nth-of-type(2n+1) {
@@ -366,20 +371,64 @@ li.person:nth-of-type(2n+1) {
   background-color: #9dc84c;
 }
 
-.partners-main img {
-  height: 42px;
-}
-
 
 /* page */
 .page-banner {
   min-height: 250px;
   padding-top: 70px;
+  margin-bottom: 70px;
 }
 
 .page-banner h1 {
   color: white;
   font-weight: 750;
+}
+
+.page-top-header {
+  padding-bottom: 12px;
+  color: #e94345;
+}
+
+.page-license {
+  text-align: right;
+}
+
+/* Page - People */
+
+.page-people .person-info {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.page-people .person-info h4 {
+  font-size: 18px;
+  color: #000;
+}
+
+.page-people .person {
+  margin-bottom: 70px;
+}
+
+/* Page - Paper */
+
+/* Page - Code for Seoul */
+
+.page-cfs .page-row img {
+  padding-left: 70px;
+}
+
+
+/* Page - Hackathon */
+
+.page-hackathon .row-2 {
+  background-color: #EE4446;
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.page-hackathon .row-3 img {
+  margin-top: 25px;
 }
 
 /* Blog */
@@ -403,6 +452,11 @@ footer {
   line-height: 22px;
 }
 
+footer a {
+  color: #C4C4C4;
+  font-weight: bold;
+}
+
 footer .footer-1 {
   padding-left: 50px;
   padding-right: 50px;
@@ -411,4 +465,8 @@ footer .footer-1 {
 footer .footer-4 li {
   float: left;
   margin-right: 20px;
+}
+
+footer img#codenamu-license {
+  width: 69px;
 }
