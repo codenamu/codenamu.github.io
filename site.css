@@ -183,7 +183,7 @@ header img {
   font-size: 44px;
 }
 
-.project {
+.projects-main .project {
   width: 345px;
   padding: 38px 25px;
   margin: 0 0 0 21px;
@@ -191,6 +191,10 @@ header img {
   background-color: #F2F2F2;
   position: relative;
   text-align: center;
+}
+
+.projects-main .project img {
+  width: auto;
 }
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
@@ -304,6 +308,10 @@ header img {
   text-align: center;
 }
 
+.page-inner-banner {
+  margin-bottom: -100px;
+}
+
 .page-row {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -411,6 +419,25 @@ li.person:nth-of-type(2n+1) {
 
 /* Page - Paper */
 
+
+/* labeling for papers  */
+.author-odi {
+  background-color: #F2BB30;
+}
+
+.author-cfa {
+  background-color: #CF1B41;
+}
+
+.author-nesta {
+  background-color: #009FEE;
+}
+
+.author-etc {
+  background-color: gray;
+}
+
+
 /* Page - Code for Seoul */
 
 .page-cfs .page-row img {
@@ -443,10 +470,12 @@ li.person:nth-of-type(2n+1) {
 }
 
 /* Footer */
+
 footer {
   background-color: #4D4D4D;
   padding-top: 55px;
   padding-bottom: 55px;
+  margin-top: 100px;
   color: #C4C4C4;
   font-size: 14px;
   line-height: 22px;

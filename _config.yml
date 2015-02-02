@@ -14,8 +14,6 @@ prose:
           value: "Add Category"
           placeholder: "Choose Category"
           options: 
-            - name: "블로그"
-              value: "blog"
             - name: "공지사항"
               value: "notice"
             - name: "외부소식"
@@ -40,6 +38,7 @@ prose:
         field:
           element: "multiselect"
           label: "Add Tags"
+          alterable: true
           placeholder: "Choose Tags"
           options:
             - name: "Apples"

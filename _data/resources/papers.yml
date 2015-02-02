@@ -1,0 +1,32 @@
+- category: "Open Data"
+  list:
+    - name: "Open Government Data"
+      url: "https://opengovdata.io/"
+      label:
+        - name: "Joshua Tauberer"
+          slug: "author-etc"
+      cover: ""
+      description: "Open government data has changed the way we understand civics. This book is about the principles behind that movement — yes, it is a movement — and its development in the United States."
+    - name: "Open data roadmap for the UK - 2015" 
+      url: "http://theodi.org/roadmap-uk-2015"
+      label:
+        - name: "ODI"
+          slug: "author-odi"
+      cover: ""
+      description: "Open Data Roadmap for the UK in 2015 published by ODI"
+- category: "Civic Tech"
+  list:
+    - name: "Civic Exchange"
+      url: "http://www.nesta.org.uk/civic-exchange"
+      label:
+        - name: "NESTA"
+          slug: "author-nesta"
+      cover: ""
+      description: "Produced as part of the Code for Europe project, Civic Exchange showcased examples of civic technology from across Europe and around the world."
+    - name: "Beyond Transparency" 
+      url: "http://beyondtransparency.org/"
+      label:
+        - name: "Code for America"
+          slug: "author-cfa"
+      cover: ""
+      description: "This book is a resource for (and by) practitioners inside and outside government—from the municipal chief information officer to the community organizer to the civic-minded entrepreneur."
