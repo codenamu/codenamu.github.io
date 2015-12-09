@@ -1,0 +1,137 @@
+---
+title: 제2회 코드잼이 열립니다
+author: codenamu
+layout: post
+permalink: /2012/10/17/923/
+dsq_thread_id:
+  - 3209926467
+categories:
+  - 블로그
+---
+### 
+
+<div>
+  <p align="center">
+    <img src="http://cfile1.onoffmix.com/attach/m9EHs3O9A9kimlpEsGkyg4hFgzZVIHc9" alt="" width="571" height="326" />
+  </p>
+  
+  <p align="center">
+    <a href="http://www.flickr.com/photos/hikingartist/5726801105/sizes/z/in/photostream/" target="_self">HikingArtist.com</a> CC BY-NC-ND
+  </p>
+  
+  <p>
+    &nbsp;
+  </p>
+  
+  <p dir="ltr">
+    <em><strong>공공 데이터를 활용해서 코딩해보는 “ 코드잼 ”</strong></em>
+  </p>
+  
+  <p>
+    <span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"> </span></span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">             </span></span></span></span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">  </span></span></span></span></span></span></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"> </span></span></span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">             </span></span></span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">                 </span></span></span></span></span></span></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"> </span></span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">             </span></span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">         </span></span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">   </span></span></span></span></span><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="text-decoration: line-through;">  </span></span></span><span style="text-decoration: line-through;">   </span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;">        </span></strong></span></span></strong></span></span></strong></span></span></span></strong></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;">  </span></strong></span></span></strong></span></span></strong></span></span></span></strong></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;">                     <span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;">                               <span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;">                    </span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></span></strong></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;">     </span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></span></strong></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;">    </span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></span></strong></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"> </span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></span></strong></span><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"><span style="color: #e1e1e1;"><strong><span style="text-decoration: line-through;"> </span></strong<br /> ></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></span></strong></span></p> <p>
+      공공데이터를 활용해서 쓸모 있는 것을 만들어보는 &#8220;코드잼&#8221; 행사에 초대합니다! &#8220;코드잼&#8221;은 아이디어를 즉석에서 공유하고 현장에서 바로  코딩해보고 디자인해보는 자리입니다.
+    </p>
+    
+    <p>
+      전회와 다름 없이 부제는 <strong>&#8216;코드마실&#8217;</strong>~ 삼선 슬리퍼, 반바지 차림으로 오셔도 돼요. 부담 없이 참석하시면 됩니다. 자유로운 분위기에서 더 좋은 결과물이 나올지도 몰라요:D
+    </p>
+    
+    <p>
+      참석한 사람들이 각자의 아이디어를 나누고, 그 아이디어에 새로운 아이디어를 더하고, 직접 현장에서 팀을 짜거나 혹은 나홀로 코딩을 하면서 결과물을 서로 공유하면서 서로에게 긍정적인 에너지가 되어 주는 시간을 만들어 보려고 합니다.
+    </p>
+    
+    <p>
+      &nbsp;<br /> <strong>#1.</strong> <strong>공공데이터 코드잼 개요 </strong>
+    </p>
+    
+    <p>
+      <a href="http://onoffmix.com/rsvp/attend/8624" target="_blank"><img title="127D4A534DD384DD0860A5" src="http://cfile23.uf.tistory.com/image/127D4A534DD384DD0860A5" alt="127D4A534DD384DD0860A5" width="740" height="7" /></a>
+    </p>
+    
+    <p>
+      언제 : 2012년 10월 20일(토) 오후 1시 ~ 오후 8시 (이후에는 뒷풀이 있어요)<br /> 장소 : 약수동 4번출구 &#8220;어쩌면 사무소&#8221; : <a href="http://flic.kr/p/bUm6Ex" target="_self">지도</a>
+    </p>
+    
+    <p>
+      인원 : 20명
+    </p>
+    
+    <p>
+      신청: <a href="http://onoffmix.com/event/9569">http://onoffmix.com/event/9569</a>
+    </p>
+    
+    <p>
+      &nbsp;
+    </p>
+    
+    <p>
+      #<strong>2.</strong> <strong>세부 일정 </strong>
+    </p>
+    
+    <p>
+      <a href="http://onoffmix.com/rsvp/attend/8624" target="_blank"><img title="127D4A534DD384DD0860A5" src="http://cfile23.uf.tistory.com/image/127D4A534DD384DD0860A5" alt="127D4A534DD384DD0860A5" width="740" height="7" /></a>
+    </p>
+    
+    <p>
+      * 이 행사는 오후에 진행 됩니다.
+    </p>
+    
+    <p>
+      <strong id="internal-source-marker_0.02271400415338576">1:00 ~ 1:10 서로 인사<br /> 1:10 ~ 2:00 같이 배워봅시다 (<strong>홍영택님의 &#8220;Github 사용법과 실습&#8221; 특강</strong>)<br /> 2:00 ~ 3:00 아이디어 공유 (어떤 데이터가 있나, 만들고 싶은</strong>것<strong id="internal-source-marker_0.02271400415338576"> 미리 생각하고 오면 좋아요)<br /> 3:00 ~ 6:00 팀 짜기, 아이디어 구현<br /> 6:00 ~ 6:30 주전부리 타임<br /> 6:30 ~ 7:30 막판 스퍼트와 마무리<br /> 7:30 ~ 8:00 결과물 공유 (발표)<br /> 8:00 ~ 뒷풀이 &#8211; 근처 호프집에 가서 못다한 이야기를 나누어 보아요.<br /> </strong>
+    </p>
+    
+    <p>
+      <strong id="internal-source-marker_0.02271400415338576"><br /> </strong>
+    </p>
+    
+    <p>
+      * 프로그램은 조금 수정될 수도 있습니다.
+    </p>
+    
+    <p>
+      * 간단한 간식과 식사 (김밥, 치킨) 을 제공합니다. 단 뒷풀이는 개인부담입니다:)
+    </p>
+    
+    <p>
+      &nbsp;
+    </p>
+    
+    <p>
+      &nbsp;
+    </p>
+    
+    <p>
+      <strong>#3.</strong> <strong>코드잼 원칙 </strong>
+    </p>
+    
+    <p>
+      <a href="http://onoffmix.com/rsvp/attend/8624" target="_blank"><img title="127D4A534DD384DD0860A5" src="http://cfile23.uf.tistory.com/image/127D4A534DD384DD0860A5" alt="127D4A534DD384DD0860A5" width="740" height="7" /></a>
+    </p>
+    
+    <p>
+      _. 아이디어와 개발 소스는 공개하는 것을 원칙으로 합니다.
+    </p>
+    
+    <p>
+      _. 제한된 시간내에서 개발을 완료할 수 있는 아이디어를 선택합니다.
+    </p>
+    
+    <p>
+      _. 개발을 완성하는게 목적이 아니라 서로의 아이디어를 공유하면서 함께 협업하는 즐거움을 느껴보는 것에 더 큰 의의가 있습니다.
+    </p>
+    
+    <p>
+      _. 공공데이터를 활용하여 공익적인 서비스를 만들어보는 짜릿한 뿌듯함을 느껴보고자 합니다.
+    </p>
+    
+    <p>
+      _. 뚝딱뚝딱 직접 만들 수 있는 개발자, 디자이너 우대합니다.
+    </p>
+    
+    <p>
+      _. 그 밖에 다른 분들도 코드나무 블로그 글을 함께 쓰거나 데이터 정리하는 등 하실 일이 많아요^^ 끌리는 분들 오세요~
+    </p>
+    
+    <p>
+      지난 행사 후기 보러가기 <a href="http://codenamu.org/880" target="_self"><strong>Click</strong></a>
+    </p></div>

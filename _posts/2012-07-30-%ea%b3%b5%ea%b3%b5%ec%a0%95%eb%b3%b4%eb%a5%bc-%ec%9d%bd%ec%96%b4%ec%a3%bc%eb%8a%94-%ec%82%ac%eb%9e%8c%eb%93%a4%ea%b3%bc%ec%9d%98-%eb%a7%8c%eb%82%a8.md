@@ -1,0 +1,57 @@
+---
+title: '공공정보를 &quot;읽어주는&quot; 사람들과의 만남'
+author: sinbi
+layout: post
+permalink: /2012/07/30/752/
+dsq_thread_id:
+  - 3062443638
+categories:
+  - 블로그
+tags:
+  - 공공정보
+  - 열린정부
+  - 캠프
+---
+국내 공공기관들의 공공정보 공개 수준이 아직 미미하다고는 하나, 최근에는 한국정보화진흥원의 <a href="http://www.data.go.kr" target="_blank">공유자원포털</a>이나 서울시의 <a href="http://data.seoul.go.kr/" target="_blank">열린 데이터 광장</a>과 같이 자발적으로 정보를 개방하는 기관이 생겨나고 있다. 그런데 이렇게 개방하는 정보를 누가 어떻게 활용할 것인가, 아니 그 전에 어떤 정보를 어떤 형태로 공개하기를 원하는가에 대해 이런 기관들도, 시민들도 아직 구체적인 상을 내놓지 못하고 있다.
+
+올 초, &#8220;[열린 정부 만들기][1]&#8221; 번역판 출간소식을 듣자마자 이 책을 함께 읽는 모임이 있었으면 좋겠다는 생각을 했었다. 정부2.0에 대한 논의와 해외 사례를 조금씩 접하면서 단지 피상적인 소식을 넘어 실제 현장의 이야기가 매우 궁금했다. 아니나다를까 정말 모임이 시작되었고, 책을 함께 읽은 사람들의 생각이 모이면서 [코드나무][2]라는 커뮤니티가 생겨났다. 모임을 통해 가장 많이 나누었던 이야기는 &#8220;이제 우리의 사례, 우리 서비스를 만들어보고싶다&#8221;는 것이었는데, 어느새 그 이야기가 현실이 되었다. 지난 7월 20-21일에 열린 &#8220;[Let&#8217;s Shake! 공공데이타 캠프][3]&#8220;가 바로 그것이다.
+
+<div style="width: 510px" class="wp-caption aligncenter">
+  <a title="Flickr에서 cckorea님의 공공데이타캠프2012" href="http://www.flickr.com/photos/wowcckorea/7609076710/"><img src="http://farm8.staticflickr.com/7129/7609076710_5928f62ef8.jpg" alt="공공데이타캠프2012" width="500" height="333" /></a><p class="wp-caption-text">
+    Let's Shake! 공공데이타 캠프 2012 (사진: cckorea /cc-by)
+  </p>
+</div>
+
+캠프를 기획하면서, 사실 코드나무 커뮤니티 멤버들도 공공정보가 어느 정도의 서비스로 구현 가능할지 확신을 갖기 어려웠던 것으로 기억한다. 그래서 더더욱, 우리에겐 실험이 필요했다. 일단 모이자. 개발자, 디자이너, 기획자. 그리고 공공정보를 제공하는 기관도 함께 만나보자. 우리가 한자리에 모여서 각자의 아이디어를 내놓고 구현하는 과정에서 답을 찾아보자. 이렇게 시작한 캠프였는데, 뚜껑을 열어보니 기대를 훨씬 뛰어넘는 놀라운 일들이 벌어졌다.
+
+캠프 참여자들은 어떤 데이터가 공개되어있는지를 살펴보기 전에, 일상과 가까운 곳에서 필요한 정보가 무엇인지 적극적으로 제시해주었다. 리콜라 팀이 내놓은 <a href="http://bit.ly/codenamu2012-team1" target="_blank">[안심병원]</a>이 대표적인 사례다. 어느 병원이 항생제와 주사를 적게 처방하고, 환자와 신뢰관계를 잘 형성하고 있는지를 지도로 한눈에 볼 수 있게 하자는 것이다. 관련정보가 <a href="http://www.hira.or.kr" target="_blank">건강보험심사평가원</a> 홈페이지에 공개되어있긴 하지만, 누구나 가져다 쓸 수 있는 형태로 제공되지는 않는다. 참여자들은 이 정보를 재가공하는 과정을 거쳐, 우샤히디 플랫폼을 활용해 실제 서비스를 만들어냈다. 정보 가공량이 많아 우선 서울 영등포구만을 대상으로 했지만, 만약 관련 정보가 활용가능한 형태로 공개되기만 한다면 언제든지 전국적인 서비스가 가능할 것이다.
+
+<p style="text-align: right">
+  [안심병원] 바로가기 <a href="http://gplanet.net/">http://gplanet.net/</a>
+</p>
+
+이미 제공되고 있는 정보를 보다 쉽고 재미있게 &#8220;읽어주는&#8221; 참여자들도 있었다. 서울시 열린 데이터 광장의 공개 정보를 적절히 조합해 서울시민의 행복도와 만족도를 하루에 한 가지씩 인포그래픽으로 제작해 보여주는 아이패드 앱을 제시한 Happy Catalyst 팀의 <a href="http://bit.ly/codenamu2012-team5" target="_blank">[How Seoul happy, Seoul infographics design]</a>이나, 국회 좌석배치도(18대 국회자료)와 의원 정보를 결합해 &#8220;정치를 재미있게!&#8221; 지켜볼 수 있게 해주는 마스터-슬레이브 팀의 <a href="http://popong.com/codenamu/" target="_blank">[국회는 지금]</a>이 그랬다.
+
+<p style="text-align: center">
+  <a href="http://codenamu.org/wp-content/uploads/2012/07/국회는지금.jpg"><img class="aligncenter  wp-image-756" src="http://codenamu.org/wp-content/uploads/2012/07/국회는지금.jpg" alt="" width="516" height="320" /></a>
+</p>
+
+<p style="text-align: right">
+  [국회는 지금] 바로가기 <a href="http://popong.com/codenamu/">http://popong.com/codenamu/</a>
+</p>
+
+마찬가지로, 현장 투표 1위를 차지한 파수꾼 팀의 [<a href="http://bit.ly/codenamu2012-team7" target="_blank">지켜보고있다</a>]는 <a href="http://cleanplus.seoul.go.kr" target="_blank">서울시 클린재정 웹사이트</a>에 매일 게재되는 지출현황을 날짜별, 사업별 세부 금액과 내역을 한눈에 보여주는 서비스를 제안했다. 이 서비스를 받아보는 서울 시민은 언제든지 그날 서울시에서 얼마가 어디에 사용되었는지를 바로 확인하고, 의견을 제시할 수가 있을 것이다.
+
+주변 공공시설 현황을 평가해 삶의 질을 보여주는 Living-smile 팀의 [<a href="http://bit.ly/codenamu2012-team6" target="_blank">e-smile</a>], 가장 가까운 곳의 공연정보를 읽어와 보여주는 빨간소 팀의 [<a href="http://bit.ly/codenamu2012-team3" target="_blank">Here- 여기</a>]도 공개된 정보를 눈높이와 관심사에 걸맞게 읽어주는 서비스를 제안했다.
+
+정보와 정보가 결합해 새로운 정보를 만들어내는 서비스 제안도 있었다. 대검찰청이 제공하는 범죄정보와 화장실 위치정보, 사용자의 평가를 결합시켜 시설 개선을 유도하는 범죄의 흔적 팀의 [<a href="http://bit.ly/codenamu2012-team4" target="_blank">범죄의 흔적</a>], 경찰청의 실종자 DB와 사용자들의 자발적인 참여를 통해 협업으로 미아를 찾아내는 통닭 팀의 [<a href="http://bit.ly/codenamu2012-team2" target="_blank">Watching You - 미아찾기</a>]가 그랬다.
+
+<p style="text-align: right">
+  이틀동안의 캠프 기록 모두보기 <a href="http://bit.ly/codenamu2012">http://bit.ly/codenamu2012</a>
+</p>
+
+불과 하루밤 사이에, 처음 만난 60여명의 사람들에게서 나온 결과물이라고 보기엔 지나치게(?) 훌륭한 아이디어와 구현 결과물에 매우 감동했다. 당장 얼마나 사용가능한 서비스인가를 따지기 전에, 이미 현 시점에서 실현가능한 열린 정부의 단초를 보여주었다는 점이 중요했다. 참여자들은 우리 대다수가 아직 가보지 않은 미지의 영역에 먼저 발을 딛고, 자신의 눈과 입을 통해 거기서 볼 수 있는 것들을 읽어주었다. 앞으로 더 많은 사람들이 그곳에 발을 내딛어야 할 것이고, 그 걸음을 응원하고 후원하여 우리가 딛고 선 세상의 폭을 넓혀나가는 일은 정부, 시민, 기업 모두의 몫이 될 것이다. We make Open Goverment!
+
+ [1]: http://codenamu.org/opengov "[번역] 열린 정부 만들기 (에이콘출판사)"
+ [2]: http://codenamu.org
+ [3]: http://codenamu.org/projec/open-data-camp "1st 공공데이터 캠프"
