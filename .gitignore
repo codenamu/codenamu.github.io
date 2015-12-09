@@ -2,3 +2,4 @@ _site/*
 .DS_Store
 
 *.log
+wp-content
