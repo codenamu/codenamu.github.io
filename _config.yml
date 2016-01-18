@@ -1,6 +1,57 @@
 title: 코드나무 커뮤니티
-permalink: pretty
-markdown: rdiscount
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+gems:
+  - jekyll-paginate
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Seoul
+future:      true
+highlighter: pygments
+markdown:    kramdown
+paginate:    5
+paginate_path: "/blog/page:num/"
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+partners:
+  - 
+    name: "CCKOREA"
+    slug: "cckorea"
+    img: "cckorea_logo.png"
+    link: "http://cckorea.org"
+  
+  - 
+    name: "Code for America"
+    slug: "code-for-america"
+    img: "cfa_logo_lg.png"
+    link: "http://codeforamerica.org"
+    
+  - 
+    name: "Code for All"
+    slug: "code-for-all"
+    img: "codeforall_logo.png"
+    link: "http://codeforall.org"
+  
+  -
+    name: "Code for Seoul"
+    slug: "code-for-seoul"
+    img: "cfs_logo.png"
+    link: "http://codeforseoul.org"
+
 prose:
   rooturl: '_posts'
   siteurl: 'http://prose.github.io/starter/'
@@ -14,10 +65,14 @@ prose:
           value: "Add Category"
           placeholder: "Choose Category"
           options: 
+            - name: "블로그"
+              value: "blog"
             - name: "공지사항"
               value: "notice"
             - name: "외부소식"
               value: "news"
+            - name: "코드포서울"
+              value: "code-for-seoul"
             - name: "춘식이의 코드이야기"
               value: "codestory"
       - name: "layout"

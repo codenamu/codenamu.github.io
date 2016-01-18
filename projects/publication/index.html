@@ -1,0 +1,24 @@
+---
+layout: page
+banner: reports.png
+title: 번역 / 보고서
+---
+<section class="container page-paper">
+  <div class="page-top-header">
+    <h1>{{ page.title }}</h1>
+  </div>
+  
+  {% for pub in site.data.projects.publications %}
+  <section id="pub-{{ pub.slug }}" class="row">
+    <div class="page-header">
+      <h2><strong>{{ pub.title }}</strong></h2>
+    </div>
+    <div class="col-md-4">
+      <img src="{{ pub.img }}" alt="{{ pub.name }}" title="{{ pub.name }}">
+    </div>
+    <div class="col-md-8">
+      {{ pub.description }}
+    </div>
+  </section>
+  {% endfor %}
+</section>

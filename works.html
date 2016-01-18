@@ -11,10 +11,20 @@ title: 결과물
     <div class="thumbnail">
       <img src="/img/works/{{ work.img }}" alt="{{ work.name }}">
     </div>
+    <div class="link">
+      {% if work.url %}
+        <a href="{{ work.url }}" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a>
+      {% endif %}
+      {% if work.github %}
+        <a href="{{ work.github }}" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a>
+      {% endif %}
+      {% if work.detail %}
+        <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a>
+      {% endif %}
+    </div>
     <div class="caption">
       <h4>{{ work.name }}</h4>
       <p>{{ work.description }}</p>
-      <p><a href="{{ work.url }}" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a> <a href="{{ work.github }}" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a></p>
     </div>
   </div>
 {% endfor %}

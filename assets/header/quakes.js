@@ -31,7 +31,7 @@ var parsedURL = url.parse(window.location.href, true);
 
 var csv = parsedURL.query.csv || 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv';
 
-xhr({ responseType: 'arraybuffer', url: 'https://dl.dropboxusercontent.com/u/61713888/codenamu/activities.csv' }, response)
+xhr({ responseType: 'arraybuffer', url: 'https://raw.githubusercontent.com/codenamu/civichacking-activity/master/community.csv' }, response)
 
 function response(err, resp, data) {
   if (err) throw err

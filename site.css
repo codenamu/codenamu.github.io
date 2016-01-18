@@ -124,13 +124,14 @@ nav {
 }
 
 header {
-  height: 400px;
+  height: 460px;
   z-index: 2;
 }
 
 header .row {
   height: 100%;
   position: relative;
+  max-width: inherit;
 }
 
 header img {
@@ -166,7 +167,6 @@ header img {
   margin: 0 auto;
 }
 
-
 .blog-main, .works-main, .publications-main, .partners-main {
   padding: 65px 35px 45px 35px;
 }
@@ -183,13 +183,23 @@ header img {
   font-size: 44px;
 }
 
+.projects-main > .row {
+  max-width: 65rem;
+}
+
 .projects-main .project {
-  width: 345px;
-  padding: 38px 25px;
-  margin: 0 0 0 21px;
-  min-height: 745px;
-  background-color: #F2F2F2;
+  /*width: 345px;
+  padding: 38px 25px;*/
+  /*margin: 0 0 0 21px;*/
+  min-height: 700px;
   position: relative;
+  text-align: center;
+}
+
+.projects-main .project .project-thumbnail {
+  width: 100%;
+  position: absolute;
+  bottom: 2rem;
   text-align: center;
 }
 
@@ -203,13 +213,12 @@ header img {
   }
 }
 
-.project h4 {
+.projects-main .project h4 {
   color: #43A9E5;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 3rem;
 }
 
 .project p {
@@ -230,16 +239,22 @@ header img {
 
 .work  {
   padding: 0px 25px;
-  min-height: 500px;
+  min-height: 590px;
 }
 
 .work .thumbnail {
   margin-bottom: 0px;
 }
 
+.work .link {
+  text-align: center;
+  margin-top: 2em;
+}
+
 .work img {
   width: 220px;
   height: 220px;
+  border: 1px solid black;
   border-radius: 150px;
 }
 
@@ -275,6 +290,10 @@ header img {
   color: white;
 }
 
+.blog-main h2 {
+  color: white;
+}
+
 .blog-main .badge-heading {
   margin-bottom: 0px;
 }
@@ -301,6 +320,16 @@ header img {
   width: 222px;
   height: 290px;
   margin: 0 auto;
+}
+
+.partners-main .partner {
+  display: table;
+  height: 120px;
+}
+
+.partners-main .partner a {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* Page */
@@ -462,6 +491,10 @@ li.person:nth-of-type(2n+1) {
 
 .heading {
   margin: 80px 0;
+}
+
+.prose p {
+  line-height: 1.67em;
 }
 
 .prose img {
