@@ -15,7 +15,7 @@ wordpress_url: http://codenamu.org/?p=15893
 date: '2014-07-22 14:45:47 +0900'
 date_gmt: '2014-07-22 05:45:47 +0900'
 categories:
-- "추천 자료"
+- "추천자료"
 tags:
 - "열린정부"
 - "코드나무"

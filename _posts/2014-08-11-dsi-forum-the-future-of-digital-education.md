@@ -16,7 +16,7 @@ wordpress_url: http://codenamu.org/?p=15973
 date: '2014-08-11 10:22:46 +0900'
 date_gmt: '2014-08-11 01:22:46 +0900'
 categories:
-- "미분류"
+- "공지사항"
 tags: []
 comments: []
 ---

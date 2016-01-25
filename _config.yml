@@ -1,6 +1,6 @@
 title: 코드나무 커뮤니티
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:year/:month/:day/:title
 
 gems:
   - jekyll-paginate
@@ -33,19 +33,16 @@ partners:
     slug: "cckorea"
     img: "cckorea_logo.png"
     link: "http://cckorea.org"
-  
   - 
     name: "Code for America"
     slug: "code-for-america"
     img: "cfa_logo_lg.png"
     link: "http://codeforamerica.org"
-    
   - 
     name: "Code for All"
     slug: "code-for-all"
     img: "codeforall_logo.png"
     link: "http://codeforall.org"
-  
   -
     name: "Code for Seoul"
     slug: "code-for-seoul"

@@ -16,8 +16,8 @@ wordpress_url: http://codenamu.org/?p=16427
 date: '2014-12-10 17:14:13 +0900'
 date_gmt: '2014-12-10 08:14:13 +0900'
 categories:
-- "notice"
-- "code-for-seoul"
+- "공지사항"
+- "코드포서울"
 tags: []
 comments: []
 ---

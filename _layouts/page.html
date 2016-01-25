@@ -4,11 +4,17 @@ layout: default
 
 <div class="page-banner jumbotron" style="background: url('/img/banner/{{ page.banner }}') no-repeat scroll center center / cover transparent;">
 </div>
-<div class="row">
+
+<div class="page-top-header">
+    <h1>{{ page.title }}</h1>
+</div>
+
+<div class="row expanded page">
     {{content}}
 </div>
+
 {% if page.inner_banner %}
-<div class="row page-inner-banner" style="background: url('{{page.inner_banner}}') 0px 0px no-repeat;
+<div class="row expanded page-inner-banner" style="background: url('{{page.inner_banner}}') 0px 0px no-repeat;
 background-size: cover;
 min-height: 547px;">
 </div>

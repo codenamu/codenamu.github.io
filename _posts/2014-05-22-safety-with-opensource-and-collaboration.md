@@ -15,8 +15,6 @@ wordpress_url: http://codenamu.org/?p=14562
 date: '2014-05-22 16:37:13 +0900'
 date_gmt: '2014-05-22 07:37:13 +0900'
 categories:
-- "블로그"
-- Code for Seoul
 - "춘식이의 코드이야기"
 tags: []
 comments: []

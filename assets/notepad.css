@@ -279,38 +279,55 @@ main, .notepad-share-icons, .notepad-disqus {
       padding-bottom: 12.5rem; } }
 
 .notepad-content .notepad-index-post {
-  visibility: hidden;
+  /*visibility: hidden;*/
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  border-bottom: 0.0625rem solid #d9d9d9; }
+  border-bottom: 0.0625rem solid #d9d9d9;
+}
+  
   .notepad-content .notepad-index-post:first-of-type {
-    padding-top: 5rem; }
+    padding-top: 5rem;
+  }
+
   .notepad-content .notepad-index-post .datetime {
-    margin-bottom: 2.5rem; }
+    margin-bottom: 2.5rem;
+  }
+  
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post {
       padding-top: 4.375rem;
-      padding-bottom: 4.375rem; }
-      .notepad-content .notepad-index-post:first-of-type {
-        padding-top: 7.5rem; }
-      .notepad-content .notepad-index-post .datetime {
-        margin-bottom: 0; } }
+      padding-bottom: 4.375rem;
+    }
+
+    .notepad-content .notepad-index-post:first-of-type {
+      padding-top: 7.5rem;
+    }
+
+    .notepad-content .notepad-index-post .datetime {
+      margin-bottom: 0;
+    }
+  }
+
   .notepad-content .notepad-index-post .notepad-post-meta {
     display: block;
-    text-align: center; }
-    .notepad-content .notepad-index-post .notepad-post-meta .day {
-      display: block;
-      font-size: 3.25rem;
-      font-weight: 800;
-      color: #e51843;
-      font-family: "Montserrat", sans-serif; }
-    .notepad-content .notepad-index-post .notepad-post-meta .month-year {
-      display: block;
-      font-size: 1rem;
-      color: black;
-      font-size: 0.875rem;
-      font-family: "Montserrat", sans-serif;
-      text-transform: uppercase; }
+    text-align: center;
+  }
+
+  .notepad-content .notepad-index-post .notepad-post-meta .day {
+    display: block;
+    font-size: 3.25rem;
+    font-weight: 800;
+    color: #EE4446;
+    font-family: "Montserrat", sans-serif;
+  }
+  .notepad-content .notepad-index-post .notepad-post-meta .month-year {
+    display: block;
+    font-size: 1rem;
+    color: black;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
   .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
     color: black;
     font-weight: 700;
@@ -319,7 +336,8 @@ main, .notepad-share-icons, .notepad-disqus {
     font-size: 1.625rem;
     margin: 0;
     padding: 0;
-    line-height: 1.1; }
+    line-height: 1.1;
+  }
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a {
       color: black; }
   @media only screen and (min-width: 40.063em) {

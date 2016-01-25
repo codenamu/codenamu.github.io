@@ -15,7 +15,6 @@ wordpress_url: http://codenamu.org/?p=15752
 date: '2014-06-18 16:52:55 +0900'
 date_gmt: '2014-06-18 07:52:55 +0900'
 categories:
-- "블로그"
 - "춘식이의 코드이야기"
 tags:
 - drm

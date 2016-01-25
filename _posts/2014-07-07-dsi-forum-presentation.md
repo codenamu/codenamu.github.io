@@ -15,8 +15,8 @@ wordpress_url: http://codenamu.org/?p=15865
 date: '2014-07-07 15:30:21 +0900'
 date_gmt: '2014-07-07 06:30:21 +0900'
 categories:
-- "블로그"
-- "외부 소식"
+- "공지사항"
+- "외부소식"
 tags:
 - dsi
 - "디지털사회혁신포럼"

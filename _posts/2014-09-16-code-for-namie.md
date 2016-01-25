@@ -16,9 +16,8 @@ wordpress_url: http://codenamu.org/?p=16074
 date: '2014-09-16 17:25:44 +0900'
 date_gmt: '2014-09-16 08:25:44 +0900'
 categories:
-- "블로그"
-- "외부 소식"
-- Code for Seoul
+- "외부소식"
+- "코드포서울"
 tags: []
 comments: []
 ---

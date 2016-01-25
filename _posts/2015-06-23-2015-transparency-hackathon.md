@@ -15,9 +15,8 @@ wordpress_url: http://codenamu.org/?p=16513
 date: '2015-06-23 11:29:14 +0900'
 date_gmt: '2015-06-23 02:29:14 +0900'
 categories:
-- "blog"
-- "notice"
-- "code-for-seoul"
+- "공지사항"
+- "코드포서울"
 tags: []
 comments: []
 ---
@@ -113,9 +112,7 @@ comments: []
 <li>장소: DCAMP 4층</li>
 </ul>
 <p>다양한 문제점들이 나왔고 아무래도 팀원들 대부분이 국가 재정이라는 분야에 깊은 지식이 없는 상황이라 답답해하며 갈피를 잡지 못하기도 했습니다. 중간 공유회는 진행 상황과 의견을 공유하며 목표를 조정하고 계속해서 데이터를 읽고 다루어 보면서 점차 구현할 프로젝트의 모습을 만들어가게 된 계기가 되었습니다.</p>
-<header class="page-header">
 <h2 class="page-title">2015 투명 재정 해커톤</h2>
-</header>
 <p><img class="img-thumbnail pure-img alignnone" src="http://transparency.codenamu.org/img/2015-hackathon.jpg" alt="" width="640" height="343" /></p>
 <p>CodeAcross 2015 행사에서 만들어진 팀원들이 아이디어를 가지고 직접 구현하는 해커톤을 진행했습니다. 3월 28일에 진행된 해커톤에서는CodeAcross 2015에 참여하여 만들어진 5개 팀들이 4개의 결과물들을 완성했고 심사를 통해 우승 및 특별상을 시상했습니다.</p>
 <ul>
@@ -125,7 +122,7 @@ comments: []
 <li>특별상: <a href="http://transparency.codenamu.org/project/7-local-index/">4팀 재정 자립도 시각화</a></li>
 </ul>
 <p>&nbsp;</p>
-<table class="table">
+<table class="table" style="margin: 0 auto;">
 <thead>
 <tr>
 <th width="20%">시간</th>

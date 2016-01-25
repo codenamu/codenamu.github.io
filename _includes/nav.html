@@ -1,26 +1,65 @@
-<div class="top-bar">
+<div style="display: none;" class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle=""></button>
+  <div class="title-bar-title">Codenamu</div>
+</div>
+
+<div style="display: block;" class="top-bar" id="menu">
   <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Site Title</li>
-      <li class="has-submenu">
-        <a href="#">One</a>
-        <ul class="submenu menu" data-submenu>
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-    </ul>
+    <li role="menuitem" class="menu-text"><a href="/">Codenamu</a></li>
   </div>
   <div class="top-bar-right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><button type="button" class="button">Search</button></li>
+    <ul role="menubar" class="dropdown menu" data-dropdown-menu>
+      <!-- <li role="menuitem" class="menu-text">Codenamu</li> -->
+      <li data-is-click="false" aria-label="One" aria-expanded="false" aria-selected="false" aria-haspopup="true" role="menuitem" class="has-submenu is-dropdown-submenu-parent is-down-arrow">
+        <a tabindex="0" href="#">소개</a>
+        <ul style="" role="menu" aria-hidden="true" class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="">
+          <li role="menuitem">
+            <a href="/about/codenamu">코드나무는?</a>
+          </li>
+          <li>
+            <a href="/about/people">함께하는 사람들</a>
+          </li>
+        </ul>
+      </li>
+      <li data-is-click="false" aria-label="One" aria-expanded="false" aria-selected="false" aria-haspopup="true" role="menuitem" class="has-submenu is-dropdown-submenu-parent is-down-arrow">
+        <a tabindex="0" href="#">프로젝트</a>
+        <ul style="" role="menu" aria-hidden="true" class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="">
+          <li>
+            <a href="/projects/codeforseoul">코드포서울</a>
+          </li>
+          <li>
+            <a href="/projects/hackathon">해커톤</a>
+          </li>
+          <li>
+            <a href="/projects/publication">서적/보고서</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="/works">결과물</a></li>
+      <!-- 
+      <li data-is-click="false" aria-label="One" aria-expanded="false" aria-selected="false" aria-haspopup="true" role="menuitem" class="has-submenu is-dropdown-submenu-parent is-down-arrow">
+        <a tabindex="0" href="#">참고자료</a>
+        <ul class="submenu menu vertical">
+          <li><a href="/resources/organisations">단체/기관</a></li>
+          <li class="divider"></li>
+          <li><a href="/resources/tools">서비스/도구</a></li>
+          <li class="divider"></li>
+          <li><a href="/resources/paper">보고서/외부자료</a></li>
+        </ul>
+      </li>
+       -->
+      <li><a href="/blog">블로그</a></li>
+      <li><a href="/joinus">참여하기</a></li>
     </ul>
   </div>
+<!--   <div class="top-bar-right">
+    <ul class="menu">
+      <li><input placeholder="Search" type="search"></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div> -->
 </div>
+
 <!-- <div class="top-bar" role="navigation">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu role="menu">
@@ -41,38 +80,7 @@
         </ul>
       </li>
       <li><a href="/works">결과물</a></li>
-      <li class="has-submenu">
-        <a href="#">참고자료</a>
-        <ul class="submenu menu vertical">
-          <li><a href="/resources/organisations">단체/기관</a></li>
-          <li class="divider"></li>
-          <li><a href="/resources/tools">서비스/도구</a></li>
-          <li class="divider"></li>
-          <li><a href="/resources/paper">보고서/외부자료</a></li>
-        </ul>
-      </li>
-      <li><a href="/blog">블로그</a></li>
-      <li><a href="/joinus">참여하기</a></li>
+
     </ul>
   </div>
 </div> -->
-
-<script>
-// window.onload = function () {
-//   var menuList = ['navabout', 'navprojects', 'navworks', 'navresources', 'navblog', 'navjoinus'];
-//   var removeActive = function () {
-//     for (var i in menuList) {
-//       $(menuList[i]).removeClass('active');
-//     }
-//   }
-//   var addActive = function () {
-//     var currentUrl = window.location.pathname;
-//     var currentLocation = currentUrl.split('/');
-//     $('#nav' + currentLocation[1]).addClass('active');
-//   }
-// 
-//   removeActive();
-//   addActive();
-// };
-
-</script>

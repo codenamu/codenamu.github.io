@@ -16,7 +16,6 @@ wordpress_url: http://codenamu.org/?p=16129
 date: '2014-10-01 14:04:56 +0900'
 date_gmt: '2014-10-01 05:04:56 +0900'
 categories:
-- "블로그"
 - "해커톤"
 - "공지사항"
 tags: []

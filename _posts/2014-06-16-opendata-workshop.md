@@ -15,7 +15,6 @@ wordpress_url: http://codenamu.org/?p=15747
 date: '2014-06-16 19:41:10 +0900'
 date_gmt: '2014-06-16 10:41:10 +0900'
 categories:
-- "블로그"
 - "공지사항"
 tags:
 - codenamu

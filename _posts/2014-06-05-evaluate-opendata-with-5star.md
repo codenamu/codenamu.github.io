@@ -15,7 +15,6 @@ wordpress_url: http://codenamu.org/?p=14602
 date: '2014-06-05 17:16:50 +0900'
 date_gmt: '2014-06-05 08:16:50 +0900'
 categories:
-- "블로그"
 - "춘식이의 코드이야기"
 tags: []
 comments: []

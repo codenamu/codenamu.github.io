@@ -15,9 +15,8 @@ wordpress_url: http://codenamu.org/?p=14519
 date: '2014-05-15 19:49:12 +0900'
 date_gmt: '2014-05-15 10:49:12 +0900'
 categories:
-- "블로그"
 - "공지사항"
-- Code for Seoul
+- "코드포서울"
 tags:
 - brigade
 - Code for america

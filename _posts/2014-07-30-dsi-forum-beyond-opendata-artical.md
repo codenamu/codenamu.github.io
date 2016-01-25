@@ -15,8 +15,7 @@ wordpress_url: http://codenamu.org/?p=15932
 date: '2014-07-30 14:03:51 +0900'
 date_gmt: '2014-07-30 05:03:51 +0900'
 categories:
-- "블로그"
-- "외부 소식"
+- "외부소식"
 tags: []
 comments: []
 ---

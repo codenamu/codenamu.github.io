@@ -15,8 +15,7 @@ wordpress_url: http://codenamu.org/?p=15711
 date: '2014-06-15 20:32:46 +0900'
 date_gmt: '2014-06-15 11:32:46 +0900'
 categories:
-- "블로그"
-- Code for Seoul
+- "코드포서울"
 tags:
 - "열린정부"
 - "정부2.0"

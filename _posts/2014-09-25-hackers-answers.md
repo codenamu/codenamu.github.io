@@ -16,8 +16,6 @@ wordpress_url: http://codenamu.org/?p=16090
 date: '2014-09-25 13:43:40 +0900'
 date_gmt: '2014-09-25 04:43:40 +0900'
 categories:
-- "미분류"
-- "블로그"
 - "춘식이의 코드이야기"
 tags: []
 comments: []

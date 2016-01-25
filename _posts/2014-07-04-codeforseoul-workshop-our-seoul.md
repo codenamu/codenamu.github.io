@@ -16,8 +16,7 @@ wordpress_url: http://codenamu.org/?p=15842
 date: '2014-07-04 13:17:05 +0900'
 date_gmt: '2014-07-04 04:17:05 +0900'
 categories:
-- "블로그"
-- "code for seoul"
+- "코드포서울"
 tags:
 - "열린정부"
 - "코드포아메리카"

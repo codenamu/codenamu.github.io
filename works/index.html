@@ -1,0 +1,30 @@
+---
+layout: page
+banner: works.png
+title: 결과물
+---
+
+<section class="row container page-works">
+    {% for work in site.data.works %}
+        <div class="small-6 large-3 columns work">
+            <a href="{{ work.url }}" target="_blank">
+                <img class="thumbnail" src="/img/works/{{ work.img }}" alt="{{ work.name }}">
+            </a>
+            <div class="link">
+                {% if work.url %}
+                    <a href="{{ work.url }}" class="btn btn-default" role="button"><i class="fa fa-home fa-lg"></i></a>
+                {% endif %}
+                {% if work.github %}
+                    <a href="{{ work.github }}" class="btn btn-default" role="button"><i class="fa fa-github fa-lg"></i></a>
+                {% endif %}
+                {% if work.detail %}
+                    <a href="#" class="btn btn-default" role="button"><i class="fa fa-info-circle fa-lg"></i></a>
+                {% endif %}
+            </div>
+            <div class="caption">
+                <h4>{{ work.name }}</h4>
+                <p>{{ work.description }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</section>

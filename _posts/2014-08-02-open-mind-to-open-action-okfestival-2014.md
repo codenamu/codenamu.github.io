@@ -15,9 +15,8 @@ wordpress_url: http://codenamu.org/?p=15934
 date: '2014-08-02 11:37:34 +0900'
 date_gmt: '2014-08-02 02:37:34 +0900'
 categories:
-- "블로그"
-- "외부 소식"
-- Code for Seoul
+- "외부소식"
+- "코드포서울"
 tags:
 - gov2.0
 - open government
