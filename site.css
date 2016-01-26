@@ -1,12 +1,23 @@
 body {
+  font-family: "source-han-sans-korean", "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 25px;
   color: #666666;
 }
 
 h1, h2, h3 {
+  font-weight: 700;
   line-height: 44px;
   margin: 0px;
+}
+
+h4, h5, h6 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 200;
+  font-size: 1rem;
 }
 
 ul {
@@ -15,6 +26,7 @@ ul {
 }
 
 a {
+  font-weight: 700;
   color: #2199e8;
 }
 
@@ -27,6 +39,7 @@ img {
 }
 
 .top-bar a {
+  font-weight: 400;
   color: #666;
 }
 
@@ -529,7 +542,7 @@ li.person:nth-of-type(2n+1) {
 }
 
 .page-hackathon .row-1 .columns:last-child > .row > img {
-  width: 80%;
+  width: 65%;
   margin-bottom: 1em;
 }
 
@@ -540,8 +553,8 @@ li.person:nth-of-type(2n+1) {
   line-height: 28px;
 }
 
-.page-hackathon .row-3 img {
-  margin-top: 25px;
+.page-hackathon .row-3 > .row.container > .row {
+  margin-bottom: 1rem;
 }
 
 .page-works .work {
@@ -551,6 +564,14 @@ li.person:nth-of-type(2n+1) {
 
 .page-works .work > div {
   margin-bottom: 0.5em;
+}
+
+.page-works .work > .link > a {
+  color: #4d4d4d;
+}
+
+.page-works .work > .link > a:hover {
+  color: #2199e8;
 }
 
 .page-works .work .caption p {
@@ -564,6 +585,11 @@ li.person:nth-of-type(2n+1) {
 }
 
 /* Blog */
+
+.post-template .notepad-post-content > div:not(.notepade-post-title) p {
+  font-size: 1.175rem !important;
+  line-height: 2rem;
+}
 
 .notepad-content .notepad-index-post {
   margin: 0 auto;
