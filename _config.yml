@@ -1,5 +1,8 @@
 title: 코드나무 커뮤니티
-# https://github.com/mojombo/jekyll/wiki/Permalinks
+description: |
+  코드나무는 공공정보 개방은 정부의 투명성을 높이고 새로운 부가가치를 만들어 낼 뿐만 아니라 무엇보다도 시민들의 참여를 통해서 새로운 혁신, 새로운 공공가치의 창조를 이끌어낼수 있다고 믿습니다. 코드나무와 같이 시민들의 지속적이고 자발적인 참여가 시민들의 참여를 끌어내고 실현시킬 수 있는 플랫폼을 구축하고 적극적으로 참여할 수 있는 문화를 바꿀 수 있다고 믿습니다. 코드나무는 정부를 탓하기 보다는 우리가 직접 보여줄 수 있는 프로젝트를 통해서 시민과 정부가 협력할 수 있는 모델을 만들고자 합니다.
+keywords: |
+  "열린 정부, open government, 시빅해킹, civic hacking, 코드포서울, code for seoul, 공공데이터, open data, 데이터, data"
 permalink: /:year/:month/:day/:title
 
 gems:
