@@ -254,7 +254,7 @@ header img {
 }
 
 .projects-main .project {
-  min-height: 440px;
+  min-height: 280px;
   position: relative;
   text-align: center;
 }
