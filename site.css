@@ -39,6 +39,10 @@ img {
   font-weight: 700;
 }
 
+.top-bar {
+  border-bottom: 1px solid rgb(247, 247, 247);
+}
+
 .top-bar, .top-bar ul {
   background-color: white;
 }
@@ -46,6 +50,14 @@ img {
 .top-bar a {
   font-weight: 400;
   color: #666;
+}
+
+.top-bar .menu-text {
+  padding: 0em;
+}
+
+.top-bar img.top-logo {
+  width: 100px;
 }
 
 .dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
@@ -245,9 +257,12 @@ header img {
 .projects-main h2 .subtitle, .blog-main h2 .subtitle, .works-main h2 .subtitle, .publications-main h2 .subtitle {
   font-size: 20px;
 }
+
 .main h3 {
   font-size: 44px;
 }
+
+
 
 .projects-main > .row {
   max-width: 65rem;
@@ -464,8 +479,7 @@ li.person:nth-of-type(2n+1) {
 
 .page-top-header {
   color: #e94345;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding: 2em 0em;
 }
 
 .page-top-header h1 {
@@ -532,8 +546,8 @@ li.person:nth-of-type(2n+1) {
 
 /* Page - Code for Seoul */
 
-.page-cfs .page-row img {
-  padding-left: 70px;
+.page-cfs .page-row .columns {
+  padding: 0px 50px;
 }
 
 
