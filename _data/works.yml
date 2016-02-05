@@ -1,3 +1,15 @@
+- name: "지켜보고 있다, 대한민국 재정 - 해커톤"
+  description: "코드나무 해커톤에 참여했던 시민들과 코드나무 활동을 함께 하고 있는 활동가들이 직접 기획하고 참여하였습니다. 지난 1, 2회와는 달리 2박 3일간의 시간을 갖고 1회성 행사에 그치지 않고 지속 가능한 열린 정부 활동을 모색하기 위한 중요한 의미를 지닌 행사였습니다."
+  img: "2015codeacross.jpg"
+  url: "http://transparency.codenamu.org"
+  github: "https://github.com/codenamu/2015-transparency"
+
+- name: "지방정부 재정 자립도"
+  description: "무상보육과 기초노령연금 등을 둘러싸고 중앙정부와 지방자치단체 간의 재원 떠넘기기 논란이 이는 가운데 전국 지방자치단체의 재정자립도가 사상 최악 수준으로 떨어지고 있는 지금, 이를 시민이 좀더 쉽게 접근하고 확인 할 수 있도록 시각화 하였습니다."
+  img: "local-index.png"
+  url: "http://codeforseoul.org/LocalGovIndex/"
+  github: "https://github.com/codeforseoul/LocalGovIndex" 
+
 - name: "Where Does My Money Go?"
   description: "영국에서 시작된 프로젝트로 우리나라 세금 데이터를 활용하여 내가 낸 세금이 어느 분야에 얼만큼 쓰였는지 시각화에서 보여주는 프로젝트입니다. 현재는 <a href='http://codeforseoul.org/' target='_blank'>코드포서울</a> 커뮤니티가 프로젝트를 이끌고 있습니다."
   img: "wheredoesmymoneygo.png"
@@ -43,12 +55,6 @@
   img: "getoutofdebt-kr.png"
   url: "http://getoutofdebt.kr"
   github: "https://github.com/codeforseoul/getoutofdebt.kr"
-
-- name: "지방정부 재정 자립도"
-  description: "무상보육과 기초노령연금 등을 둘러싸고 중앙정부와 지방자치단체 간의 재원 떠넘기기 논란이 이는 가운데 전국 지방자치단체의 재정자립도가 사상 최악 수준으로 떨어지고 있는 지금, 이를 시민이 좀더 쉽게 접근하고 확인 할 수 있도록 시각화 하였습니다."
-  img: "local-index.png"
-  url: "http://codeforseoul.org/LocalGovIndex/"
-  github: "https://github.com/codeforseoul/LocalGovIndex"
 
 - name: "How Much Shoveling We’ve Done"
   description: "이 프로젝트는 정부의 재정 데이터중 건설관련 비용을 지도상에 표시하여 보다 쉽게 건설관련 비용의 흐름과 유용성을 보여주려는 목적으로 정부의 예산이 집행된 공사의 집행 기관명과 위치, 총 공사비 등을 투명하게 지도 상에 시각화합니다."
