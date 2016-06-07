@@ -44,7 +44,7 @@ comments: []
 <p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
 <p>1시간 뒤, 지역 IT기술 미디어인 Technical.ly Philly에서 전화가 왔습니다. 오후에 <a href="http://technical.ly/philly/2014/06/20/heres-map-phillys-residential-permit-parking-zones/" target="_blank">1면 뉴스</a>로 실릴 예정이라는 소식을 전해주더군요.</p>
 <p>며칠 뒤에는 지도 방문자 수가 17,000에 달했습니다.</p>
-<p><a href="http://codenamu.org/wp-content/uploads/2014/12/mapview.png"><img src="http://codenamu.org/wp-content/uploads/2014/12/mapview.png" alt="mapview" width="100%" /></a></p>
+<p><a href="http://codenamu.org/wp-content/uploads/2014/12/mapview.png"><img src="/wp-content/uploads/2014/12/mapview.png" alt="mapview" width="100%" /></a></p>
 <p>필라델피아 주차 관리 기관에서 이 지도에 대한 회의에 참석해줄 수 있냐는 연락을 받았을 때는 결국 깜짝 놀라 커피를 책상에 쏟고 말았습니다. 그 사람들은 모든 것이 궁금했던 것입니다. 해커톤이 뭐야? 오픈 데이터가 어떻게 쓰이는데? 시빅 해킹은 누가 조종하는 거야?(이 때, 해킹이란 단어는 여전히 일반 사람들을 불안하게 만든다는 것을 배웠습니다) 저는 필라델피아의 CDO(Chief Data Officer)와 약속을 잡아 만날 수 있었고 현재는 이 분께서는 코드포필리 모임에 정기적으로 참여하고 있습니다.</p>
 <p>저는 거의 매일 늦은 밤, 지도와, 데이터베이스 이론과, 자바스크립트 그리고 데이터 시각화를 공부하며 온 여름을 보냈습니다. 이후 샌프란시스코에서 열린 코드포아메리카 서밋에 초대를 받았습니다. 샌프란시스코로 떠나기 전, 필라델피아의 오픈 데이터팀에서 사람을 구하는 중이란 것을 발견했습니다. 살면서 정부에서 일해보리란 것을 상상도 해본적이 없는데 누군가 저에게 이 자리에 관심없냐는 질문을 던졌을 때 빵 터지고 말았습니다. 하지만 캘리포니아로 떠나는 비행기에서, 그 생각을 멈출 수 없었습니다.</p>
 <p><a href="http://codenamu.org/wp-content/uploads/2014/12/codeforphilly_meetup.png"><img src="http://codenamu.org/wp-content/uploads/2014/12/codeforphilly_meetup.png" alt="" width="100%" /></a></p>
