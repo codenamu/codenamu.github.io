@@ -39,6 +39,11 @@ img {
   font-weight: 700;
 }
 
+.menu-icon {
+  background-color: #666;
+  box-shadow: 0 7px 0 #666,0 14px 0 #666;
+}
+
 .top-bar {
   border-bottom: 1px solid rgb(247, 247, 247);
 }
