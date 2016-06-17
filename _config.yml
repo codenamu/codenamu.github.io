@@ -30,27 +30,74 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+featured_posts:
+  -
+    title: "고위공직자 재산 공개 웹사이트, 이렇게 만들어졌다"
+    description: "2016년 외부 협력 첫번째 프로젝트로 뉴스타파와 협력하여 '고위공직자 재산 공개' 웹사이트를 구축했습니다. 이 사이트의 개발 과정과 그 이후 생각들을 정리해보았습니다."
+    date: "2016-06-10"
+    link: "http://codenamu.org/2016/06/08/behind-story-jaesan-newstapa"
+  -
+    title: "GPL, AGPL, MPL... 한눈에 보는 오픈소스SW 라이선스"
+    description: "대표적인 오픈소스 라이선스들을 알아보고, 특징과 조건들을 비교해보았습니다. 적용 사례도 소개합니다. 앞으로는 오픈소스 SW를 활용하거나 오픈소스 SW를 만들 때 라이선스에 대해 한 번쯤 고민할 수 있는 계기가 됐으면 좋겠습니다."
+    date: "2014-10-10"
+    link: "http://codenamu.org/2014/10/10/popular-opensource-license"
+  -
+    title: "대한민국 세금 데이터, '해킹'해봤어요"
+    description: "대한민국 세출 데이터를 활용하여 내가 낸 세금이 어떤 분야에 얼만큼 쓰이는지 알 수 있는 'Where Does My Money Go?'. 이 사이트의 개발 과정을 정리들려드립니다."
+    date: "2014-08-18"
+    link: "http://codenamu.org/2014/08/18/hacked-tax-data"
+
 partners:
-  - 
+  -
     name: "CCKOREA"
     slug: "cckorea"
     img: "cckorea_logo.png"
     link: "http://cckorea.org"
-  - 
-    name: "Code for America"
-    slug: "code-for-america"
-    img: "cfa_logo_lg.png"
-    link: "http://codeforamerica.org"
-  - 
+  -
     name: "Code for All"
     slug: "code-for-all"
     img: "codeforall_logo.png"
     link: "http://codeforall.org"
   -
+    name: "Code for America"
+    slug: "code-for-america"
+    img: "cfa_logo_lg.png"
+    link: "http://codeforamerica.org"
+  -
+    name: "Code for Germany"
+    slug: "code-for-germany"
+    img: "codeforgermany.png"
+    link: "http://codefor.de/"
+  -
     name: "Code for Seoul"
     slug: "code-for-seoul"
     img: "cfs_logo.png"
     link: "http://codeforseoul.org"
+  # -
+  #   name: "Open Knowledge International"
+  #   slug: "oki"
+  #   img: "oki.png"
+  #   link: "http://okfn.org"
+  # -
+  #   name: "그린피스 한국"
+  #   slug: "greanpeace-korea"
+  #   img: "greenpeace.jpg"
+  #   link: "http://www.greenpeace.org/korea/"
+  # -
+  #   name: "뉴스타파"
+  #   slug: "newstapa"
+  #   img: "newstapa.png"
+  #   link: "http://newstapa.org"
+  # -
+  #   name: "중앙일보"
+  #   slug: "joins"
+  #   img: "joins.png"
+  #   link: "http://joins.com"
+  # -
+  #   name: "참여연대"
+  #   slug: "pspd"
+  #   img: "pspd.jpg"
+  #   link: "http://www.peoplepower21.org/"
 
 prose:
   rooturl: '_posts'
@@ -64,7 +111,7 @@ prose:
           element: "multiselect"
           value: "Add Category"
           placeholder: "Choose Category"
-          options: 
+          options:
             - name: "블로그"
               value: "blog"
             - name: "공지사항"

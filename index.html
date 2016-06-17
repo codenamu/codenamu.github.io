@@ -7,69 +7,51 @@ layout: default
     <!-- Projects Section -->
     <section class="projects-main">
         <section class="row container">
-            <div class="small-12 large-4 columns project">
-                <!-- <a href="/projects/codeforseoul">
-                    <img src="/img/main/project_1.png" alt="Code for Seoul">
-                </a> -->
+            <div class="small-12 large-3 columns project">
+                <a href="/projects/codeforseoul">
+                    <img src="/img/main/world.png" alt="코드포{도시}">
+                </a>
                 <div class="caption">
-                    <h4><a href="/projects/codeforseoul">커뮤니티</a></h4>
-                    <p>코드포서울은 IT기술을 활용해서 직접 공공에게 도움이 되는 서비스를 만들 수 있는 개발자,디자이너,기획자 그룹으로 이뤄져 있습니다. 코드나무는 전 세계 시빅 해킹 커뮤니티들과 함께 도시의 문제를 해결하기 위하여 전 세계 시민들과 협력하고 있습니다.</p>
+                    <h4>코드포{도시}</h4>
+                    <p>내가 사는 지역의 문제를 내가 가진 기술로 직접 해결할 수 있다면? 코드나무는 전 세계 코드포{도시} 커뮤니티들과 함께 국내 코드포서울을 시작으로 하는 커뮤니티들을 지원하고 있습니다.</p>
                 </div>
-                <!--<div class="project-thumbnail">
-                    <img src="/img/main/codeforseoul.jpg" alt="Code for Seoul">
-                </div> -->
             </div>
-            <div class="small-12 large-4 columns project">
-                <!-- <a href="/projects/hackathon">
-                    <img src="/img/main/project_2.png" alt="해커톤">
-                </a> -->
+            <div class="small-12 large-3 columns project">
+                <a href="/projects/hackathon">
+                    <img src="/img/main/hacker.png" alt="해커톤">
+                </a>
                 <div class="caption">
-                    <h4><a href="/projects/hackathon">해커톤</a></h4>
-                    <p>코드나무는 공공기관에는 공공정보를 개방할 수 있도록 가이드와 민간의 의견들을 제공하고 민간에서는 공공데이터를 활용한 다양한 서비스와 어플리케이션을 개발을 할 수 있도록 매 년 해커톤을 열고 있습니다.</p>
+                    <h4>해커톤</h4>
+                    <p>열린 데이터가 우리 사회에 어떤 역할을 할 수 있을까요? 코드나무는 매년 전 세계 활동가들과 함께 공공데이터 해커톤, CodeAcross, Open Data Day 등 해커톤 행사를 주최하고 있습니다.</p>
                 </div>
-                <!-- <div class="project-thumbnail">
-                    <img src="/img/main/hackathon.jpg" alt="해커톤">
-                </div> -->
             </div>
-            <div class="small-12 large-4 columns project">
-                <!-- <a href="/projects/publication">
-                    <img src="/img/main/project_3.png" alt="번역/보고서">
-                </a> -->
+            <!-- <div class="small-12 large-3 columns project">
+                <a href="/projects/hackathon">
+                    <img src="/img/main/collabo.png" alt="리드데이터">
+                </a>
                 <div class="caption">
-                    <h4><a href="/projects/publication">책 / 보고서</a></h4>
-                    <p>열린정부(정부2.0)의 개념과 가치를 알리기 위해서 코드나무는 해외 도서들을 번역하고 있고 공공데이터 개방에 대한 전반적인 컨설팅 및 연구를 진행하고 있습니다.</p>
+                    <h4>외부협력</h4>
+                    <p>더 많은 데이터가 공개되고 열린 데이터가 더 나은 사회를 만들기 위한 다양한 영역에서 활용되려면 무엇을 해야할까요? 코드나무는 '리드데이터'라는 이름으로 외부 단체들과 협력하여 데이터를 공개하고 활용할 수 있도록 기술적인 도움을 주거나 컨설팅 사업을 진행하고 있습니다.</p>
                 </div>
-                <!-- <div class="project-thumbnail">
-                    <img src="/img/main/document.jpg" alt="번역/보고서">
-                </div> -->
+            </div> -->
+            <div class="small-12 large-3 columns project">
+                <a href="/projects/publication">
+                    <img src="/img/main/report.png" alt="서적/보고서">
+                </a>
+                <div class="caption">
+                    <h4>서적/보고서</h4>
+                    <p>코드나무는 열린 정부와 열린 데이터를 위한 활발한 연구를 진행하고 있습니다. 이를 바탕으로 정부 기관에게 공공데이터와 관련한 컨설팅을 제공하기도 합니다. 코드나무가 번역한 서적 및 보고서를 확인해보세요.</p>
+                </div>
             </div>
         </section>
     </section>
     <!-- / Projects Section -->
-
-    <!-- Blog Section -->
-    <section class="blog-main">
-        <section class="row container">
-            <div class="badge-heading badge-blog row">
-                <h2>블로그 <span class="subtitle">코드나무의 소식과 글입니다.</span></h2>
-                <div class="row blog">
-                    {% for item in site.posts | limit:3 %}
-                        <div class="small-12 large-4 columns">
-                            <h3><a class="item" href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a></h3>
-                            <p>{{ item.content | strip_html | truncatewords: 30 }}</p>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
-    </section>
-    <!-- / Blog Section -->
-
+    <hr>
     <!-- Works Section -->
     <section class="works-main">
         <section class="row container">
             <div class="badge-heading badge-works row">
-                <h2>결과물 <span class="subtitle">코드나무 활동가들이 그동안 만든 웹/앱 서비스 목록입니다.</span> </h2>
+                <h2>데이터 시각화</h2>
             </div>
             <div class="row">
             {% for work in site.data.works limit:4 %}
@@ -102,12 +84,30 @@ layout: default
         </section>
     </section>
     <!-- / Works Section -->
-
+    <hr>
+    <!-- Blog Section -->
+    <section class="blog-main">
+        <section class="row container">
+            <div class="badge-heading badge-blog row">
+                <h2>대표글</h2>
+                <div class="row blog">
+                    {% for item in site.featured_posts %}
+                        <div class="small-12 large-4 columns">
+                            <h3><a class="item" href="{{item.link}}">{{ item.title }}</a></h3>
+                            <p>{{ item.description }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- / Blog Section -->
+    <hr>
     <!-- Publications Section -->
     <section class="publications-main ">
         <section class="row container">
             <div class="badge-heading badge-publications row">
-                <h2>자료집 <span class="subtitle">코드나무 활동가들이 그동안 만든 결과물들입니다.</span></h2>
+                <h2>자료집</h2>
             </div>
             <div class="row">
                 <div class="small-12 large-4 columns publication">
@@ -129,7 +129,7 @@ layout: default
                     </h5>
                     <p><a href="#">교보문고</a> | <a href="#">알라딘</a> | <a href="#">예스24</a> | <a href="#">인터파크</a></p>
                     <p>PDF 공개 문서: <a href="#">바로보기</a> | <a href="#">다운로드</a></p>
-                    <!--  
+                    <!--
                     <div class="row">
                         <button class="btn btn-default"><a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788996366539" target="_blank"><span class="glyphicon glyphicon-globe"></span> 사러 가기</a></button>
                         <button class="btn btn-default"><a href="http://www.scribd.com/doc/63548697/%EC%B0%B8%EC%97%AC%EC%99%80-%EC%86%8C%ED%86%B5%EC%9D%98-%EC%A0%95%EB%B6%802-0-%ED%98%B8%EC%A3%BC-%EC%A0%95%EB%B6%802-0-%ED%83%9C%EC%8A%A4%ED%81%AC%ED%8F%AC%EC%8A%A4-%EB%B3%B4%EA%B3%A0%EC%84%9C%20" target="_blank"><span class="glyphicon glyphicon-download"></span> PDF 다운로드</a></button>
@@ -149,7 +149,7 @@ layout: default
         </section>
     </section>
     <!-- / Publications Section -->
-
+    <hr>
     <!-- Partners Section -->
     <section class="partners-main">
         <section class="row container">
@@ -160,7 +160,7 @@ layout: default
                 {% for partner in site.partners %}
                     <div class="small-6 large-2 columns partner">
                         <a title="{{ partner.name }}" href="{{ partner.link }}" class="">
-                            <img src="img/partners/{{ partner.img }}" alt="{{ partner.name }}">
+                            <img src="img/partners/{{ partner.img }}" title="{{ partner.name }}" alt="{{ partner.name }}" {% if partner.slug %} class="partner-{{ partner.slug }}" {% endif %}>
                         </a>
                     </div>
                 {% endfor %}

@@ -4,11 +4,10 @@
   url: "http://jaesan.newstapa.org"
   github: "https://github.com/codenamu/official-assets-explorer"
 
-- name: "지켜보고 있다, 대한민국 재정 - 해커톤"
-  description: "코드나무 해커톤에 참여했던 시민들과 코드나무 활동을 함께 하고 있는 활동가들이 직접 기획하고 참여하였습니다. 지난 1, 2회와는 달리 2박 3일간의 시간을 갖고 1회성 행사에 그치지 않고 지속 가능한 열린 정부 활동을 모색하기 위한 중요한 의미를 지닌 행사였습니다."
-  img: "2015codeacross.jpg"
-  url: "http://transparency.codenamu.org"
-  github: "https://github.com/codenamu/2015-transparency"
+- name: "19대 국회의원 성적표"
+  description: "참여연대에서 운영하는 입법감시 프로젝트, 열려라 국회가 공개한 데이터를 활용하여 19대 국회의원 성적표를 시각화 형태로 만들었습니다. 각 지역구의 국회의원의 출결 현황과 표결 결과를 한눈에 확인해보세요."
+  img: "congress-report.png"
+  url: "https://read-data.codenamu.org/congress-report"
 
 - name: "지방정부 재정 자립도"
   description: "무상보육과 기초노령연금 등을 둘러싸고 중앙정부와 지방자치단체 간의 재원 떠넘기기 논란이 이는 가운데 전국 지방자치단체의 재정자립도가 사상 최악 수준으로 떨어지고 있는 지금, 이를 시민이 좀더 쉽게 접근하고 확인 할 수 있도록 시각화 하였습니다."

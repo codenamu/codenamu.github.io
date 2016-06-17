@@ -250,7 +250,7 @@ header img {
 }
 
 .projects-main h2, .blog-main h2, .works-main h2, .publications-main h2 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -282,15 +282,16 @@ header img {
 }
 
 .projects-main .project img {
-  width: auto;
+  width: 200px;
 }
 
 .projects-main .project h4 {
-  color: #43A9E5;
+  color: black;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project p {
@@ -346,12 +347,12 @@ header img {
 
 
 .blog-main {
-  background-color: #EE4446;
-  color: white;
+  /*background-color: #EE4446;
+  color: white;*/
 }
 
 .blog-main h2 {
-  color: white;
+  /*color: white;*/
 }
 
 .blog-main .blog {
@@ -359,7 +360,7 @@ header img {
 }
 
 .blog-main .blog a {
-  color: white;
+  /*color: white;*/
 }
 
 .blog-main .blog > .columns {
@@ -373,8 +374,8 @@ header img {
 
 .publications-main {
   padding-bottom: 95px;
-  background-color: #29A9E1;
-  color: white;
+  /*background-color: #29A9E1;
+  color: white;*/
 }
 
 .publications-main .publication {
@@ -382,7 +383,7 @@ header img {
 }
 
 .publications-main .publication a {
-  color: white;
+  /*color: white;*/
 }
 
 .publications-main .publication h5 {
@@ -390,7 +391,7 @@ header img {
 }
 
 .publications-main .publication a:hover, .publications-main .publication a:active {
-  color: #EE4446;
+  color: #1585cf;
 }
 
 .publications-main .publication .thumbnail, .publication img {
@@ -401,12 +402,36 @@ header img {
 
 .partners-main .partner {
   display: table;
-  height: 120px;
+  height: 120px !important;
 }
 
 .partners-main .partner a {
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
+}
+
+.partners-main .partner > a > img {
+  opacity: 0.3;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+
+.partners-main .partner > a > img.partner-code-for-america, .partners-main .partner > a > img.partner-code-for-all {
+  width: auto;
+  height: 50px;
+}
+.partners-main .partner > a > img.partner-joins, .partners-main .partner > a > img.partner-nia {
+  width: auto;
+  height: 100px;
+}
+
+.partners-main .partner > a > img:hover {
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 /* About */
@@ -650,6 +675,10 @@ footer .footer-1 {
   padding-right: 50px;
 }
 
+footer .footer-1 img {
+  width: 150px;
+}
+
 footer .footer-4 li {
   float: left;
   margin-right: 20px;
@@ -659,7 +688,24 @@ footer img#codenamu-license {
   width: 69px;
 }
 
-@media screen and (max-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 480px) {
+  .title-bar {
+    background-color: white;
+    color: black;
+  }
+  
+  .title-bar .title-bar-title {
+    width: 150px;
+  }
+
+  #menu .top-bar-left {
+    display: none !important;
+  }
+
+  #menu .top-bar-right .menu li {
+    display: block;
+  }
+
   header img {
     width: 100%;
   }
