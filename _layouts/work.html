@@ -1,0 +1,39 @@
+---
+layout: page
+---
+
+<section class="row container work">
+  <h1>{{ page.title }}</h1>
+  <div class="row">
+    <div class="large-3 large-push-9 columns work-side">
+      <div class="row">
+        <a class="expanded secondary hollow button" href="{{ page.homepage }}">웹사이트</a>
+        <div class="expanded button-group">
+          {% if page.github %}
+          <a class="secondary hollow button" href="{{ page.github }}">소스코드</a>
+          {% endif %}
+          {% if page.blog %}
+          <a class="secondary hollow button" href="{{ page.blog }}" target="_blank" title="{{ page.blog_title}}">관련 글</a>
+          {% endif %}
+        </div>
+      </div>
+      {% if page.contributors %}
+      <div class="row">
+        <h3>기여자</h3>
+        {% for c in page.contributors %}
+          <li>
+            {% if c.url %}
+            <a href="{{ c.url }}" target="_blank">{{ c.name }}</a>
+            {% else %}
+            {{c.name}}
+            {% endif %}
+          </li>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    <div class="large-9 large-pull-3 columns work-content">
+      {{ content }}
+    </div>
+  </div>
+</section>
