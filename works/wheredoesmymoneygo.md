@@ -2,6 +2,7 @@
 layout: work
 title: "Where Does My Money Go?(Kr)"
 github: "https://github.com/codeforseoul/wheredoesmymoneygo.kr"
+blog: "https://www.bloter.net/archives/203332"
 ---
 
 이 기록은 두개의 기능을 제공합니다. 하나는 "내가 낸 세금은 어디에 쓰일까?"웹 사이트의

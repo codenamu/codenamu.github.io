@@ -322,7 +322,7 @@ header img {
 .works-main .work {
   text-align: center;
   padding: 0px 25px;
-  min-height: 500px;
+  min-height: 350px;
 }
 
 .works-main .work .thumbnail {
@@ -332,7 +332,7 @@ header img {
 .works-main .work img {
   width: 220px;
   height: 220px;
-  border: 1px solid black;
+  /*  border: 1px solid black; */
   border-radius: 150px;
 }
 

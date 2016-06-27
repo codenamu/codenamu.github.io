@@ -54,29 +54,12 @@ layout: default
                 <h2>데이터 시각화</h2>
             </div>
             <div class="row">
-            {% for work in site.data.works limit:4 %}
+            {% for work in site.featured_works %}
                 <div class="small-12 large-3 columns work">
                     <a href="/works" class="">
-                        <img src="/img/works/{{ work.img }}" alt="{{ work.name }}">
+                        <img src="/img/works/{{ work.img }}" alt="{{ work.name }}" class="thumbnail">
                     </a>
-                    <div class="links row">
-                        {% if work.url %}
-                            <button class="btn btn-default">
-                                <a href="{{ work.url }}"><span class="glyphicon glyphicon-globe"></span></a>
-                            </button>
-                        {% endif %}
-                        {% if work.github %}
-                            <button class="btn btn-default">
-                                <a href="{{ work.github }}"><i class="fa fa-github fa-lg"></i></a>
-                            </button>
-                        {% endif %}
-                        {% if work.detail %}
-                            <button class="btn btn-default">
-                                <a href="#"><span class="glyphicon glyphicon-info-sign"></span></a>
-                            </button>
-                        {% endif %}
-                    </div>
-                    <h4>{{ work.name }}</h4>
+                    <h4>{{ work.title }}</h4>
                     <p>{{ work.description }}</p>
                 </div>
             {% endfor %}

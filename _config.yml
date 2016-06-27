@@ -30,6 +30,19 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+featured_works:
+  -
+    title: "고위공직자 재산 공개"
+    img: "jaesan-newstapa.png"
+  -
+    title: "19대 국회의원 성적표"
+    img: "congress-report.png"
+  -
+    title: "우리지역 채무탈출"
+    img: "getoutofdebt-kr.png"
+  -
+    title: "지방 재정 자립도"
+    img: "local-index.png"
 featured_posts:
   -
     title: "고위공직자 재산 공개 웹사이트, 이렇게 만들어졌다"
@@ -93,11 +106,11 @@ partners:
   #   slug: "joins"
   #   img: "joins.png"
   #   link: "http://joins.com"
-  # -
-  #   name: "참여연대"
-  #   slug: "pspd"
-  #   img: "pspd.jpg"
-  #   link: "http://www.peoplepower21.org/"
+  -
+    name: "참여연대"
+    slug: "pspd"
+    img: "pspd.jpg"
+    link: "http://www.peoplepower21.org/"
 
 prose:
   rooturl: '_posts'
